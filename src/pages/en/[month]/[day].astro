@@ -1,0 +1,235 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const monthNames = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December'
+];
+
+const monthSlugs = [
+  'january', 'february', 'march', 'april', 'may', 'june',
+  'july', 'august', 'september', 'october', 'november', 'december'
+];
+
+export async function getStaticPaths() {
+  const dataModules = import.meta.glob('../../../data/birthdays/en/*.json', { eager: true });
+  const paths: Array<{ params: { month: string; day: string }; props: { data: any } }> = [];
+
+  const monthSlugsLocal = [
+    'january', 'february', 'march', 'april', 'may', 'june',
+    'july', 'august', 'september', 'october', 'november', 'december'
+  ];
+
+  for (const path in dataModules) {
+    const data = (dataModules[path] as { default: any }).default;
+    paths.push({
+      params: {
+        month: monthSlugsLocal[data.month - 1],
+        day: String(data.day),
+      },
+      props: { data },
+    });
+  }
+
+  return paths;
+}
+
+const { data } = Astro.props;
+const monthEn = monthNames[data.month - 1];
+const monthSlug = monthSlugs[data.month - 1];
+
+// 序数化 (1st, 2nd, 3rd, 4th...)
+function ordinal(n: number): string {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+const title = `Born on ${monthEn} ${ordinal(data.day)} – Personality, Wellness & Compatibility | Birthday Wellness`;
+const description = `Discover the personality, love compatibility, ideal careers, lucky items, and pharmacist-approved body constitution, lucky foods, and self-care tips for those born on ${monthEn} ${ordinal(data.day)}.`;
+const currentPath = `/${monthSlug}/${data.day}/`;
+---
+
+<BaseLayout title={title} description={description} lang="en" currentPath={currentPath}>
+  <article class="space-y-10">
+    <header class="text-center space-y-3 pb-6 border-b border-purple-200">
+      <p class="text-sm text-purple-600 font-medium tracking-wide">BIRTHDAY WELLNESS</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-purple-900">
+        Born on {monthEn} {ordinal(data.day)}
+      </h1>
+      <div class="flex flex-wrap justify-center gap-2 text-sm">
+        <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full">Zodiac: {data.zodiac}</span>
+        <span class="px-3 py-1 bg-pink-100 text-pink-700 rounded-full">Life Path: {data.lifePathNumber}</span>
+      </div>
+    </header>
+
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-4">
+      <h2 class="text-xl font-bold text-purple-900 flex items-center gap-2">
+        <span>🌟</span> Personality Overview
+      </h2>
+      <p class="text-lg font-medium text-purple-700">{data.personality.headline}</p>
+      <div class="flex flex-wrap gap-2">
+        {data.personality.keywords.map((k: string) => (
+          <span class="px-2 py-0.5 bg-purple-50 text-purple-600 text-xs rounded">#{k}</span>
+        ))}
+      </div>
+      <p class="leading-relaxed">{data.personality.description}</p>
+      <div class="grid grid-cols-2 gap-4 pt-2">
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">Strengths</p>
+          <ul class="text-sm space-y-1">
+            {data.personality.strengths.map((s: string) => <li>• {s}</li>)}
+          </ul>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-rose-700 mb-2">Challenges</p>
+          <ul class="text-sm space-y-1">
+            {data.personality.weaknesses.map((w: string) => <li>• {w}</li>)}
+          </ul>
+        </div>
+      </div>
+      <p class="text-sm bg-purple-50 p-3 rounded leading-relaxed">
+        <strong>Life Theme:</strong> {data.personality.theme}
+      </p>
+    </section>
+
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-pink-900 flex items-center gap-2">
+        <span>💖</span> Love & Relationships
+      </h2>
+      <p class="leading-relaxed">{data.love}</p>
+    </section>
+
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-blue-900 flex items-center gap-2">
+        <span>💼</span> Career & Work
+      </h2>
+      <p class="leading-relaxed">{data.career.description}</p>
+      <div>
+        <p class="text-sm font-semibold text-blue-700 mb-2">Ideal Careers</p>
+        <ul class="space-y-1">
+          {data.career.jobs.map((job: string) => <li>• {job}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-4">
+      <h2 class="text-xl font-bold text-amber-900 flex items-center gap-2">
+        <span>🤝</span> Compatibility Matches
+      </h2>
+      <div>
+        <p class="text-sm font-semibold text-emerald-700 mb-2">Best Matches</p>
+        <ul class="space-y-2">
+          {data.compatibility.best.map((m: any) => (
+            <li class="text-sm">
+              <span class="font-semibold">{m.date} ({m.zodiac})</span>: {m.reason}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-rose-700 mb-2">Challenging Matches</p>
+        <ul class="space-y-2">
+          {data.compatibility.challenging.map((m: any) => (
+            <li class="text-sm">
+              <span class="font-semibold">{m.date} ({m.zodiac})</span>: {m.reason}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-amber-900 flex items-center gap-2">
+        <span>🎁</span> Lucky Items
+      </h2>
+      <ul class="space-y-2 text-sm">
+        <li><strong>Colors:</strong> {data.luckyItems.colors.join(' / ')}</li>
+        <li><strong>Birthstones:</strong> {data.luckyItems.stones.join(' / ')}</li>
+        <li><strong>Birth Flower:</strong> {data.luckyItems.flower} (meaning: "{data.luckyItems.flowerMeaning}")</li>
+        <li><strong>Lucky Numbers:</strong> {data.luckyItems.numbers.join(', ')}</li>
+        <li><strong>Lucky Direction:</strong> {data.luckyItems.direction}</li>
+      </ul>
+    </section>
+
+    <div class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 space-y-6 border-2 border-emerald-200">
+      <div class="text-center">
+        <span class="inline-block px-3 py-1 bg-emerald-600 text-white text-xs rounded-full font-medium">
+          💊 Pharmacist's Wellness Corner
+        </span>
+      </div>
+
+      <section class="space-y-3">
+        <h2 class="text-xl font-bold text-emerald-900 flex items-center gap-2">
+          <span>🌿</span> Your Body Constitution
+        </h2>
+        <p class="leading-relaxed">{data.constitution.description}</p>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">Tendencies to Watch</p>
+          <ul class="space-y-1 text-sm">
+            {data.constitution.watchPoints.map((p: string) => <li>• {p}</li>)}
+          </ul>
+        </div>
+        <p class="text-sm bg-emerald-100/50 p-3 rounded leading-relaxed">{data.constitution.seasonalNote}</p>
+      </section>
+
+      <section class="space-y-3 pt-3 border-t border-emerald-200">
+        <h2 class="text-xl font-bold text-emerald-900 flex items-center gap-2">
+          <span>🍵</span> Healthy Lucky Foods & Herbs
+        </h2>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">Recommended Foods</p>
+          <ul class="space-y-2">
+            {data.luckyFoods.foods.map((f: any) => (
+              <li class="text-sm">
+                <strong>{f.name}</strong>: {f.reason}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">Recommended Herbal Teas</p>
+          <ul class="space-y-2">
+            {data.luckyFoods.herbs.map((h: any) => (
+              <li class="text-sm">
+                <strong>{h.name}</strong>: {h.reason}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <p class="text-xs text-slate-500 italic">General wellness information only. Not intended as medical advice.</p>
+      </section>
+
+      <section class="space-y-3 pt-3 border-t border-emerald-200">
+        <h2 class="text-xl font-bold text-emerald-900 flex items-center gap-2">
+          <span>💆</span> Personalized Self-Care Tips
+        </h2>
+        <p class="leading-relaxed">{data.selfCare.description}</p>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">Daily Habits</p>
+          <ul class="space-y-1 text-sm">
+            {data.selfCare.habits.map((h: string) => <li>• {h}</li>)}
+          </ul>
+        </div>
+        <p class="text-sm bg-emerald-100/50 p-3 rounded leading-relaxed">
+          <strong>Stress Management:</strong> {data.selfCare.stressManagement}
+        </p>
+      </section>
+    </div>
+
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-purple-900 flex items-center gap-2">
+        <span>📚</span> Famous People Born on {monthEn} {ordinal(data.day)}
+      </h2>
+      <ul class="space-y-1 text-sm">
+        {data.famousPeople.map((p: string) => <li>• {p}</li>)}
+      </ul>
+    </section>
+
+    <nav class="text-center pt-6">
+      <a href="/en/" class="inline-block px-5 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-full text-sm transition">
+        ← Try another birthday
+      </a>
+    </nav>
+  </article>
+</BaseLayout>

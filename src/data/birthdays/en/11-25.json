@@ -1,0 +1,83 @@
+{
+  "month": 11,
+  "day": 25,
+  "zodiac": "Sagittarius",
+  "zodiacRange": "Nov 23 - Dec 21",
+  "lifePathNumber": 9,
+  "personality": {
+    "headline": "A Passionate Visionary with the Soul of a Wanderer",
+    "keywords": ["Passionate", "Intuitive", "Expressive"],
+    "description": "Those born on November 25th are passionate visionaries with the soul of a wanderer. The free-spirited Sagittarius energy combined with the humanitarian wisdom of Life Path 9 creates a uniquely magnetic personality. You possess sharp intuition and an ability to see through people instantly. Your expressive nature draws others in, making you a natural storyteller and influencer. At the same time, you hold a strong inner code of justice — once you believe in something, you stand by it firmly.",
+    "strengths": ["Action-oriented", "Generous spirit", "Creative inspiration", "Honesty"],
+    "weaknesses": ["Restlessness", "Impulsiveness", "Hiding sensitive emotions", "Perfectionism"],
+    "theme": "Balancing freedom with ideals. When you sacrifice yourself to protect others, you risk losing your inner light. Staying true to your own voice is the key to thriving."
+  },
+  "love": "You tend to fall in love at first sight and seek partners who respect your independence. Restrictive relationships drain you quickly — mutual freedom is essential. While passionate on the surface, you secretly long for deep spiritual connection. Compatibility based on shared values matters more than chemistry alone. Marriage often works best after your late 20s, once your own world is established. Be careful not to expect perfection from partners. Choosing someone you can grow alongside brings the most fulfillment.",
+  "career": {
+    "description": "You thrive in environments offering creative freedom and self-expression. Repetitive routines and rigid hierarchies will drain your spirit. You shine brightest in roles where you can share your unique voice with the world.",
+    "jobs": [
+      "Educator, lecturer, coach",
+      "Journalist, editor, writer",
+      "Musician, artist, performer",
+      "Entrepreneur, founder",
+      "Counselor or spiritual practitioner"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "April 12", "zodiac": "Aries", "reason": "Action-oriented synergy" },
+      { "date": "July 23", "zodiac": "Leo", "reason": "Expressive resonance" },
+      { "date": "October 8", "zodiac": "Libra", "reason": "Shared idealism" }
+    ],
+    "challenging": [
+      { "date": "May 15", "zodiac": "Taurus", "reason": "Opposing values" },
+      { "date": "August 28", "zodiac": "Virgo", "reason": "Perfectionism clash" },
+      { "date": "February 19", "zodiac": "Pisces", "reason": "Emotional temperature gap" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Purple", "Turquoise Blue"],
+    "stones": ["Topaz", "Citrine"],
+    "flower": "Cineraria",
+    "flowerMeaning": "Ever cheerful",
+    "numbers": [9, 25],
+    "direction": "Southwest"
+  },
+  "constitution": {
+    "description": "In traditional astrology, Sagittarius governs the thighs and liver. As a fire-element sign, you tend to hold heat internally. While appearing energetic, you often don't notice fatigue until it's accumulated.",
+    "watchPoints": [
+      "Liver strain (mind alcohol & rich foods)",
+      "Autonomic nervous system imbalance (overactivity backlash)",
+      "Tension in thighs and lower back"
+    ],
+    "seasonalNote": "Especially during late winter to early spring, consciously schedule rest days."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Turmeric", "reason": "Rich in curcumin for liver support" },
+      { "name": "Broccoli sprouts", "reason": "Sulforaphane for detox" },
+      { "name": "Mint & cucumber", "reason": "Cooling foods to balance internal heat" }
+    ],
+    "herbs": [
+      { "name": "Milk Thistle", "reason": "The classic liver-loving herb" },
+      { "name": "Lemon Balm", "reason": "For autonomic nervous system balance" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your mind never stops — which means intentional stillness is essential.",
+    "habits": [
+      "10-minute morning breath meditation",
+      "One 'zero-plan day' per week",
+      "Lukewarm bath (38-40 degrees Celsius) to activate parasympathetic nervous system",
+      "Phone off 1 hour before bed"
+    ],
+    "stressManagement": "Journaling works exceptionally well — you process through language. Light walking or yoga also restores balance."
+  },
+  "famousPeople": [
+    "Tina Turner (Singer)",
+    "Christina Applegate (Actress)",
+    "Joe DiMaggio (Baseball legend)",
+    "Ringo Shiina (Japanese musician)",
+    "Tomokazu Miura (Japanese actor)"
+  ]
+}

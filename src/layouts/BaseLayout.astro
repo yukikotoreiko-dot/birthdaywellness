@@ -1,0 +1,71 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang?: 'ja' | 'en';
+  currentPath?: string;
+}
+
+const { title, description, lang = 'ja', currentPath = '/' } = Astro.props;
+
+// 言語切替リンクの生成
+const switchLang = lang === 'ja' ? 'en' : 'ja';
+const switchPath =
+  lang === 'ja'
+    ? `/en${currentPath}`
+    : currentPath.replace(/^\/en/, '') || '/';
+
+const siteName = lang === 'ja' ? 'Birthday Wellness' : 'Birthday Wellness';
+const navHome = lang === 'ja' ? 'ホーム' : 'Home';
+const navAbout = lang === 'ja' ? '運営者' : 'About';
+const navDisclaimer = lang === 'ja' ? '免責事項' : 'Disclaimer';
+
+const disclaimerText =
+  lang === 'ja'
+    ? '本サイトは占いに基づく娯楽コンテンツです。健康に関する記述は一般的な情報提供であり、診断・治療を目的としたものではありません。具体的な症状がある場合は医療機関にご相談ください。'
+    : 'This site offers entertainment-based astrology content. Wellness information is general and not intended for diagnosis or treatment. Consult a healthcare professional for specific concerns.';
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="alternate" hreflang={switchLang} href={switchPath} />
+  </head>
+  <body class="bg-gradient-to-br from-purple-50 via-pink-50 to-amber-50 min-h-screen text-slate-800">
+    <header class="bg-white/80 backdrop-blur-sm border-b border-purple-100 sticky top-0 z-10">
+      <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href={lang === 'ja' ? '/' : '/en/'} class="flex items-center gap-2">
+          <span class="text-2xl">✨</span>
+          <span class="font-bold text-lg text-purple-900">{siteName}</span>
+        </a>
+        <nav class="flex items-center gap-4 text-sm">
+          <a
+            href={switchPath}
+            class="px-3 py-1 rounded-full bg-purple-100 hover:bg-purple-200 text-purple-700 font-medium transition"
+          >
+            {switchLang === 'en' ? 'English' : '日本語'}
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="max-w-3xl mx-auto px-4 py-8">
+      <slot />
+    </main>
+
+    <footer class="bg-white/70 border-t border-purple-100 mt-16">
+      <div class="max-w-4xl mx-auto px-4 py-8 text-xs text-slate-500 space-y-3">
+        <p class="leading-relaxed">{disclaimerText}</p>
+        <p class="text-center pt-3 border-t border-purple-100">
+          © 2026 Birthday Wellness. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

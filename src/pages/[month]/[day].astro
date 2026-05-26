@@ -1,0 +1,240 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const monthNames = [
+  'january', 'february', 'march', 'april', 'may', 'june',
+  'july', 'august', 'september', 'october', 'november', 'december'
+];
+
+const monthNamesJa = [
+  '1月', '2月', '3月', '4月', '5月', '6月',
+  '7月', '8月', '9月', '10月', '11月', '12月'
+];
+
+export async function getStaticPaths() {
+  const dataModules = import.meta.glob('../../data/birthdays/ja/*.json', { eager: true });
+  const paths: Array<{ params: { month: string; day: string }; props: { data: any } }> = [];
+
+  const monthNamesLocal = [
+    'january', 'february', 'march', 'april', 'may', 'june',
+    'july', 'august', 'september', 'october', 'november', 'december'
+  ];
+
+  for (const path in dataModules) {
+    const data = (dataModules[path] as { default: any }).default;
+    paths.push({
+      params: {
+        month: monthNamesLocal[data.month - 1],
+        day: String(data.day),
+      },
+      props: { data },
+    });
+  }
+
+  return paths;
+}
+
+const { data } = Astro.props;
+const monthJa = monthNamesJa[data.month - 1];
+const monthEn = monthNames[data.month - 1];
+
+const title = `${monthJa}${data.day}日生まれの性格・運命・体質傾向 | Birthday Wellness`;
+const description = `${monthJa}${data.day}日生まれの性格、恋愛、仕事、相性、ラッキーアイテム、そして薬剤師監修の体質傾向・健康ラッキーフード・セルフケアまで詳しく解説。`;
+const currentPath = `/${monthEn}/${data.day}/`;
+---
+
+<BaseLayout title={title} description={description} lang="ja" currentPath={currentPath}>
+  <article class="space-y-10">
+    <!-- ヘッダー -->
+    <header class="text-center space-y-3 pb-6 border-b border-purple-200">
+      <p class="text-sm text-purple-600 font-medium tracking-wide">BIRTHDAY WELLNESS</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-purple-900">
+        {monthJa}{data.day}日生まれの あなた
+      </h1>
+      <div class="flex flex-wrap justify-center gap-2 text-sm">
+        <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full">星座：{data.zodiac}</span>
+        <span class="px-3 py-1 bg-pink-100 text-pink-700 rounded-full">運命数：{data.lifePathNumber}</span>
+      </div>
+    </header>
+
+    <!-- 性格 -->
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-4">
+      <h2 class="text-xl font-bold text-purple-900 flex items-center gap-2">
+        <span>🌟</span> 基本性格
+      </h2>
+      <p class="text-lg font-medium text-purple-700">{data.personality.headline}</p>
+      <div class="flex flex-wrap gap-2">
+        {data.personality.keywords.map((k: string) => (
+          <span class="px-2 py-0.5 bg-purple-50 text-purple-600 text-xs rounded">#{k}</span>
+        ))}
+      </div>
+      <p class="leading-relaxed">{data.personality.description}</p>
+      <div class="grid grid-cols-2 gap-4 pt-2">
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">長所</p>
+          <ul class="text-sm space-y-1">
+            {data.personality.strengths.map((s: string) => <li>・{s}</li>)}
+          </ul>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-rose-700 mb-2">短所</p>
+          <ul class="text-sm space-y-1">
+            {data.personality.weaknesses.map((w: string) => <li>・{w}</li>)}
+          </ul>
+        </div>
+      </div>
+      <p class="text-sm bg-purple-50 p-3 rounded leading-relaxed">
+        <strong>人生のテーマ：</strong>{data.personality.theme}
+      </p>
+    </section>
+
+    <!-- 恋愛 -->
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-pink-900 flex items-center gap-2">
+        <span>💖</span> 恋愛・結婚運
+      </h2>
+      <p class="leading-relaxed">{data.love}</p>
+    </section>
+
+    <!-- 仕事 -->
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-blue-900 flex items-center gap-2">
+        <span>💼</span> 仕事・適職
+      </h2>
+      <p class="leading-relaxed">{data.career.description}</p>
+      <div>
+        <p class="text-sm font-semibold text-blue-700 mb-2">向いている職業</p>
+        <ul class="space-y-1">
+          {data.career.jobs.map((job: string) => <li>・{job}</li>)}
+        </ul>
+      </div>
+    </section>
+
+    <!-- 相性 -->
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-4">
+      <h2 class="text-xl font-bold text-amber-900 flex items-center gap-2">
+        <span>🤝</span> 相性の良い誕生日
+      </h2>
+      <div>
+        <p class="text-sm font-semibold text-emerald-700 mb-2">ベストマッチ</p>
+        <ul class="space-y-2">
+          {data.compatibility.best.map((m: any) => (
+            <li class="text-sm">
+              <span class="font-semibold">{m.date}（{m.zodiac}）</span>：{m.reason}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <p class="text-sm font-semibold text-rose-700 mb-2">注意が必要な相手</p>
+        <ul class="space-y-2">
+          {data.compatibility.challenging.map((m: any) => (
+            <li class="text-sm">
+              <span class="font-semibold">{m.date}（{m.zodiac}）</span>：{m.reason}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <!-- ラッキーアイテム -->
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-amber-900 flex items-center gap-2">
+        <span>🎁</span> ラッキーアイテム
+      </h2>
+      <ul class="space-y-2 text-sm">
+        <li><strong>カラー：</strong>{data.luckyItems.colors.join(' / ')}</li>
+        <li><strong>誕生石：</strong>{data.luckyItems.stones.join(' / ')}</li>
+        <li><strong>誕生花：</strong>{data.luckyItems.flower}（花言葉「{data.luckyItems.flowerMeaning}」）</li>
+        <li><strong>ラッキーナンバー：</strong>{data.luckyItems.numbers.join('・')}</li>
+        <li><strong>ラッキー方位：</strong>{data.luckyItems.direction}</li>
+      </ul>
+    </section>
+
+    <!-- 薬剤師監修コーナー -->
+    <div class="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-6 space-y-6 border-2 border-emerald-200">
+      <div class="text-center">
+        <span class="inline-block px-3 py-1 bg-emerald-600 text-white text-xs rounded-full font-medium">
+          💊 薬剤師監修コーナー
+        </span>
+      </div>
+
+      <!-- 体質傾向 -->
+      <section class="space-y-3">
+        <h2 class="text-xl font-bold text-emerald-900 flex items-center gap-2">
+          <span>🌿</span> あなたの体質傾向
+        </h2>
+        <p class="leading-relaxed">{data.constitution.description}</p>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">気をつけたい傾向</p>
+          <ul class="space-y-1 text-sm">
+            {data.constitution.watchPoints.map((p: string) => <li>・{p}</li>)}
+          </ul>
+        </div>
+        <p class="text-sm bg-emerald-100/50 p-3 rounded leading-relaxed">{data.constitution.seasonalNote}</p>
+      </section>
+
+      <!-- 健康ラッキーフード -->
+      <section class="space-y-3 pt-3 border-t border-emerald-200">
+        <h2 class="text-xl font-bold text-emerald-900 flex items-center gap-2">
+          <span>🍵</span> 健康ラッキーフード＆ハーブ
+        </h2>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">おすすめ食材</p>
+          <ul class="space-y-2">
+            {data.luckyFoods.foods.map((f: any) => (
+              <li class="text-sm">
+                <strong>{f.name}</strong>：{f.reason}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">おすすめハーブティー</p>
+          <ul class="space-y-2">
+            {data.luckyFoods.herbs.map((h: any) => (
+              <li class="text-sm">
+                <strong>{h.name}</strong>：{h.reason}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <p class="text-xs text-slate-500 italic">※あくまで一般的なリラックス・健康サポート目的の情報です。</p>
+      </section>
+
+      <!-- セルフケア -->
+      <section class="space-y-3 pt-3 border-t border-emerald-200">
+        <h2 class="text-xl font-bold text-emerald-900 flex items-center gap-2">
+          <span>💆</span> あなた専用セルフケア
+        </h2>
+        <p class="leading-relaxed">{data.selfCare.description}</p>
+        <div>
+          <p class="text-sm font-semibold text-emerald-700 mb-2">おすすめ習慣</p>
+          <ul class="space-y-1 text-sm">
+            {data.selfCare.habits.map((h: string) => <li>・{h}</li>)}
+          </ul>
+        </div>
+        <p class="text-sm bg-emerald-100/50 p-3 rounded leading-relaxed">
+          <strong>ストレス対処法：</strong>{data.selfCare.stressManagement}
+        </p>
+      </section>
+    </div>
+
+    <!-- 有名人 -->
+    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+      <h2 class="text-xl font-bold text-purple-900 flex items-center gap-2">
+        <span>📚</span> {monthJa}{data.day}日生まれの有名人
+      </h2>
+      <ul class="space-y-1 text-sm">
+        {data.famousPeople.map((p: string) => <li>・{p}</li>)}
+      </ul>
+    </section>
+
+    <!-- ナビゲーション -->
+    <nav class="text-center pt-6">
+      <a href="/" class="inline-block px-5 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-full text-sm transition">
+        ← 別の誕生日を占う
+      </a>
+    </nav>
+  </article>
+</BaseLayout>

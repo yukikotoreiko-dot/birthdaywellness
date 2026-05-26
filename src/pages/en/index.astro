@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = 'Birthday Wellness – Daily Horoscope × Pharmacist-Approved Wellness';
+const description =
+  'Discover personality, love compatibility, careers, and lucky items for all 366 days — plus pharmacist-approved body constitution insights, lucky foods, and self-care tips. A new kind of birthday horoscope site.';
+---
+
+<BaseLayout title={title} description={description} lang="en" currentPath="/">
+  <div class="space-y-10">
+    <section class="text-center space-y-4 py-6">
+      <p class="text-xs tracking-widest text-purple-600 font-medium">BIRTHDAY WELLNESS</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-purple-900 leading-tight">
+        Discover your <span class="text-pink-600">Birthday</span><br />
+        Personality & Wellness
+      </h1>
+      <p class="text-slate-600 max-w-md mx-auto leading-relaxed">
+        Daily horoscope insights for all 366 days, <br class="md:hidden" />
+        with <strong class="text-emerald-700">pharmacist-approved wellness tips</strong>.
+      </p>
+    </section>
+
+    <section class="bg-white/80 backdrop-blur rounded-3xl p-8 shadow-lg border border-purple-100">
+      <h2 class="text-lg font-bold text-purple-900 mb-6 text-center">
+        Enter your birth month and day
+      </h2>
+      <form id="birthdayForm" class="space-y-4">
+        <div class="flex items-center justify-center gap-3">
+          <select
+            id="month"
+            class="px-4 py-3 rounded-xl border border-purple-200 bg-white text-lg font-medium focus:outline-none focus:ring-2 focus:ring-purple-400"
+            required
+          >
+            <option value="">Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <span class="text-slate-400">/</span>
+          <select
+            id="day"
+            class="px-4 py-3 rounded-xl border border-purple-200 bg-white text-lg font-medium focus:outline-none focus:ring-2 focus:ring-purple-400"
+            required
+          >
+            <option value="">Day</option>
+            {Array.from({ length: 31 }, (_, i) => (
+              <option value={i + 1}>{i + 1}</option>
+            ))}
+          </select>
+        </div>
+        <button
+          type="submit"
+          class="w-full py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold rounded-2xl text-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5"
+        >
+          ✨ Reveal My Birthday
+        </button>
+      </form>
+      <p id="formError" class="hidden text-sm text-rose-600 text-center mt-3"></p>
+    </section>
+
+    <section class="grid md:grid-cols-3 gap-4">
+      <div class="bg-white/70 rounded-2xl p-5 text-center space-y-2">
+        <div class="text-3xl">🌟</div>
+        <p class="text-sm font-semibold text-purple-900">All 366 days covered</p>
+        <p class="text-xs text-slate-600">Astrology + Numerology + Birth Flowers & Stones</p>
+      </div>
+      <div class="bg-white/70 rounded-2xl p-5 text-center space-y-2">
+        <div class="text-3xl">💊</div>
+        <p class="text-sm font-semibold text-purple-900">Pharmacist Approved</p>
+        <p class="text-xs text-slate-600">Body constitution, foods & self-care insights</p>
+      </div>
+      <div class="bg-white/70 rounded-2xl p-5 text-center space-y-2">
+        <div class="text-3xl">🌎</div>
+        <p class="text-sm font-semibold text-purple-900">Japanese Wellness</p>
+        <p class="text-xs text-slate-600">Eastern wisdom × modern wellness fusion</p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  const monthSlugs = [
+    'january', 'february', 'march', 'april', 'may', 'june',
+    'july', 'august', 'september', 'october', 'november', 'december'
+  ];
+
+  const form = document.getElementById('birthdayForm');
+  const errorEl = document.getElementById('formError');
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const month = parseInt(document.getElementById('month').value, 10);
+    const day = parseInt(document.getElementById('day').value, 10);
+
+    if (!month || !day) {
+      errorEl.textContent = 'Please select a month and day';
+      errorEl.classList.remove('hidden');
+      return;
+    }
+
+    const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    if (day > daysInMonth[month - 1]) {
+      const monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][month - 1];
+      errorEl.textContent = `${monthName} only has ${daysInMonth[month - 1]} days`;
+      errorEl.classList.remove('hidden');
+      return;
+    }
+
+    errorEl.classList.add('hidden');
+    const slug = monthSlugs[month - 1];
+    window.location.href = `/en/${slug}/${day}/`;
+  });
+</script>
