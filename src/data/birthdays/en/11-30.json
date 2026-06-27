@@ -1,0 +1,155 @@
+{
+  "month": 11,
+  "day": 30,
+  "zodiac": "Sagittarius",
+  "zodiacRange": "Nov 22 - Dec 21",
+  "lifePathNumber": 5,
+  "personality": {
+    "description": "Born on November 30th under free-roaming, adventure-loving Sagittarius and carrying Life Path 5 — the number of freedom, change, and adventure — you are the soul of pure, untamed freedom. This is one of the most freedom-loving combinations in all of astrology: Sagittarius IS the sign of the free wanderer, the adventurer, the seeker of horizons; and the Five IS the number of freedom, restlessness, and the love of change and experience. Your gift is boundless adventure — combining Sagittarius's love of exploration, optimism, and far horizons with the Five's craving for freedom, variety, and experience, becoming the soul who lives most fully in motion, discovery, and the thrill of the next horizon. You are the free wanderer, the adventurer who must roam. You combine Sagittarius's freedom with the Five's love of change — a double dose of the untamed. But this much freedom can become its own trap: so restless you never commit to anything or anyone, so addicted to the next experience you never go deep, so free you scatter your gifts across a hundred adventures and master none. You came here to live boundlessly free, exploring all life offers — and to learn that the deepest freedom includes the freedom to commit, to go deep, and to stay when something truly matters.",
+    "headline": "The Free Wanderer Who Lives for Adventure and Untamed Freedom",
+    "keywords": ["Free", "Adventurous", "Untamed"],
+    "strengths": ["Living boundlessly free and adventurous", "Embracing change, variety, and experience", "Exploring all that life offers", "Thriving in motion and discovery"],
+    "weaknesses": ["So restless you never commit", "So addicted to the next experience you never go deep", "Scattering your gifts and mastering none", "Freedom becoming its own trap"],
+    "theme": "Your life theme is 'freedom that includes the freedom to commit.' Your gift to live boundlessly free, exploring all life offers, thrives in motion and discovery — but freedom so restless you never commit, so addicted to the next experience you never go deep, scatters your gifts and masters none. The growth is learning that the deepest freedom includes the freedom to commit, to go deep, and to stay when something truly matters."
+  },
+  "love": "You love freely, adventurously, and passionately, craving a partner who shares your love of freedom and never cages your wandering spirit. You bring excitement, spontaneity, passion, and the thrill of adventure. Your challenge is being so restless or freedom-loving that you flee commitment, depth, or staying when something truly matters. The right partner is free yet able to go deep, who shares your love of adventure yet shows you the freedom found in commitment and depth. When you let love be both free and committed, both adventurous and deep, your wandering heart finds the one adventure worth staying for.",
+  "career": {
+    "description": "You belong where freedom, variety, and adventure are the work — travel, exploration, freelance or entrepreneurial freedom, varied and changing roles, work that crosses cultures and horizons, or any field that never cages your wandering spirit. Routine, confinement, and monotony are your prison. You thrive in motion, variety, and discovery — best when free enough to roam yet committed enough to master something.",
+    "jobs": [
+      "Travel writer, explorer, or adventure professional",
+      "Freelancer or entrepreneur with total freedom",
+      "International, cross-cultural, or location-free worker",
+      "Varied, changing roles that never confine",
+      "Anyone who lives and works in freedom and adventure"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "March 30", "zodiac": "Aries", "reason": "Their bold adventure matches your untamed freedom" },
+      { "date": "July 23", "zodiac": "Leo", "reason": "Their warm passion shares your love of life" },
+      { "date": "January 30", "zodiac": "Aquarius", "reason": "Their free, independent spirit matches your wandering heart" }
+    ],
+    "challenging": [
+      { "date": "May 30", "zodiac": "Gemini", "reason": "Two restless spirits may scatter without depth together" },
+      { "date": "August 30", "zodiac": "Virgo", "reason": "Their love of routine cages your wandering spirit" },
+      { "date": "June 30", "zodiac": "Cancer", "reason": "Their need for security clings against your need for freedom" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Royal Purple", "Electric Blue"],
+    "stones": ["Turquoise", "Amethyst"],
+    "flower": "Wild Aster",
+    "flowerMeaning": "Untamed freedom · The love of the open road",
+    "numbers": [5, 9],
+    "direction": "East"
+  },
+  "constitution": {
+    "description": "Sagittarius governs the liver, hips, thighs, and sciatic nerve, and as a Life Path 5 you carry both Sagittarius's expansive vitality and the Five's restless, sensation-seeking, easily-overstimulated nervous system — your liver (Sagittarius's seat, ruling expansion) and a body that craves stimulation and movement but can burn out from excess. A double-freedom nature can overtax both your liver and your restless system through over-indulgence and constant motion.",
+    "watchPoints": [
+      "Liver strain from over-extension, excess, and over-indulgence (Sagittarius's domain)",
+      "Nervous-system burnout from constant stimulation and restlessness (the Five's pattern)",
+      "Hip, thigh, and sciatic strain from a body always on the move"
+    ],
+    "seasonalNote": "Your birthday season fills you with untamed, adventurous energy. Balance freedom with depth and rest — your Sagittarius-ruled, expansive system and your restless Five nerves stay healthiest when your love of experience is balanced with stillness, your liver isn't overtaxed by excess, and you sometimes stay rather than always chasing the next thrill."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Liver-supporting foods (leafy greens, beets, lemon)", "reason": "Support the liver Sagittarius rules" },
+      { "name": "Grounding, steadying whole foods", "reason": "Anchor a restless, sensation-seeking system" },
+      { "name": "Regular, calming meals (not constant snacking on the go)", "reason": "Steady a body always in motion" }
+    ],
+    "herbs": [
+      { "name": "Dandelion or milk thistle tea", "reason": "Traditionally support liver health (Sagittarius's domain)" },
+      { "name": "Ashwagandha or passionflower", "reason": "Traditionally calm and ground a restless, overstimulated system" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is freedom that includes depth — balancing your love of adventure and change with stillness, depth, and the freedom to commit and stay, not always fleeing to the next experience.",
+    "habits": [
+      "Balance your love of experience with stillness and depth",
+      "Practice the freedom to commit and stay",
+      "Go deep in a few things rather than scattering across many",
+      "Stay sometimes rather than always chasing the next thrill"
+    ],
+    "stressManagement": "You discharge stress through adventure, movement, and change, but must also ground and go deep. Dandelion tea is said to support liver health and ashwagandha to ground a restless system, while balancing your love of freedom with depth, stillness, and the freedom to commit keeps your boundless spirit from scattering and burning out."
+  },
+  "famousPeople": [
+    "Mark Twain (American author)",
+    "Winston Churchill (British Prime Minister)",
+    "Ben Stiller (American actor)",
+    "Billy Idol (English musician)",
+    "Kaley Cuoco (American actress)",
+    "Clay Aiken (American singer)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Live Boundlessly Free, Exploring All That Life Offers",
+    "description": "The November 30th soul carries a contract of boundless adventure: to combine Sagittarius's love of exploration, optimism, and far horizons with the Five's craving for freedom, variety, and experience — to be the free wanderer who lives most fully in motion, discovery, and the thrill of the next horizon, one of the most freedom-loving souls in all of astrology. You are here to live boundlessly free, exploring all that life offers, combining Sagittarius's freedom with the Five's love of change. You roam untamed. But your deeper mission is to find the freedom within depth: to learn that this much freedom can become its own trap — so restless you never commit, so addicted to the next experience you never go deep, so free you scatter your gifts and master none — and that the deepest freedom includes the freedom to commit, to go deep, and to stay when something truly matters. When you live boundlessly free, exploring all life offers, while also embracing the freedom to commit, deepen, and stay, you become a truly free soul — one who roams the world AND knows the deeper freedom of depth and devotion.",
+    "sacredGift": "The Gift of Boundless Freedom",
+    "shadowWork": "Learning that the deepest freedom includes the freedom to commit, to go deep, and to stay when something truly matters — that boundless freedom without depth becomes its own trap."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Boundless Freedom",
+    "overallTheme": "This year your gift for living boundlessly free, exploring all life offers, is called forth — adventures to live, horizons to chase, experiences to embrace. The universe rewards your freedom, but tests whether you also find the freedom within depth and commitment. The lesson this year is to live boundlessly free while embracing the freedom to commit, go deep, and stay when something truly matters.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Live Free", "guidance": "Embrace adventure, change, and experience. Roam freely." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Explore All Life Offers", "guidance": "Chase horizons. Thrive in motion and discovery." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Find Freedom in Depth", "guidance": "Go deep in a few things. Don't scatter and master none." },
+      { "period": "Q4 (Oct-Dec)", "focus": "The Freedom to Stay", "guidance": "Commit and stay when something truly matters. That too is freedom." }
+    ],
+    "warningWindow": "Late November: freedom so restless you never commit, so addicted to the next experience you never go deep, may scatter your gifts and master none. Find the freedom within depth.",
+    "openingWindow": "Around your birthday (late November): your boundless freedom is at its most alive. Live free and explore all life offers — while embracing the deeper freedom of depth and commitment."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your boundless freedom aligns with the universe's adventurous current — moments to roam, explore, and deepen.",
+    "dates": [
+      { "date": "November 30 (Solar Return)", "energy": "Boundless-Freedom Day", "action": "Live boundlessly free, exploring all life offers. Boundless freedom is your birthday gift." },
+      { "date": "December 27", "energy": "Adventure Day", "action": "Chase horizons. Thrive in motion and discovery." },
+      { "date": "February 15", "energy": "Depth Day", "action": "Go deep in a few things. Don't scatter and master none." },
+      { "date": "April 22", "energy": "Freedom-to-Stay Day", "action": "Commit and stay when something truly matters. That too is freedom." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Free Yet Deep Partner Who Roams and Stays With You",
+    "description": "Your divine counterpart is free yet able to go deep, who shares your love of adventure yet shows you the freedom found in commitment and depth — a partner who never cages your wandering spirit yet is the one adventure worth staying for, roaming with you yet rooting with you too.",
+    "qualities": [
+      "Free, sharing your love of adventure and never caging you",
+      "Able to go deep, showing you the freedom in depth",
+      "Roams with you yet is worth staying for",
+      "Shows you the freedom found in commitment"
+    ],
+    "meetingSign": "You will likely meet on the road, through travel, adventure, or a chance encounter while exploring — a spontaneous, exciting, free connection. The connection will feel like the wind itself, yet this is the one adventure that makes you want to stay and go deep.",
+    "timing": "Most likely once you have learned the freedom within depth — when you no longer flee all commitment, and can both roam free and stay deep with a free yet deep partner."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers boundless freedom — a wanderer who roamed every horizon, an adventurer who lived for the next experience, a free spirit who could not be caged. You knew the gift of untamed freedom. In this life, the urge to roam, to chase horizons, to live free and explore all that life offers, rises in you without explanation, and confinement feels like death. That is not mere wanderlust. That is memory — one of the freest souls returning.",
+    "unfinishedLesson": "In a past incarnation, your boundless freedom became its own trap — so restless you never committed to anything or anyone, so addicted to the next experience you never went deep, so free you scattered your gifts across a hundred adventures and mastered none, your freedom ultimately empty. This life is the one where you learn that the deepest freedom includes the freedom to commit, to go deep, and to stay when something truly matters."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Boundless-Freedom Ritual",
+    "description": "A potent ritual aligned with Sagittarius-5 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a purple or blue candle and take several slow breaths, feeling your free, untamed, adventurous spirit.",
+      "Name the adventure or freedom you most want to live and explore this cycle.",
+      "Write one way you'll embrace it — roaming, exploring, living free.",
+      "Then name ONE thing truly worth committing to, going deep in, or staying for.",
+      "Place a hand on your heart and say: 'I live boundlessly free, and I embrace the deeper freedom of depth and commitment.'",
+      "Name one way you'll go deep or stay rather than fleeing to the next thrill.",
+      "Take one adventurous step and one deepening, committing action this week."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I live boundlessly free and adventurous." },
+      { "day": "Tuesday", "affirmation": "I embrace change, variety, and experience." },
+      { "day": "Wednesday", "affirmation": "I explore all that life offers." },
+      { "day": "Thursday", "affirmation": "I embrace the freedom to commit and go deep." },
+      { "day": "Friday", "affirmation": "I don't let restlessness scatter my gifts." },
+      { "day": "Saturday", "affirmation": "I stay when something truly matters." },
+      { "day": "Sunday", "affirmation": "I roam the world AND know the deeper freedom of depth." }
+    ]
+  }
+}

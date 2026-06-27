@@ -1,0 +1,155 @@
+{
+  "month": 1,
+  "day": 11,
+  "zodiac": "Capricorn",
+  "zodiacRange": "Dec 22 - Jan 19",
+  "lifePathNumber": 3,
+  "personality": {
+    "description": "Born on January 11th under refined, classic Capricorn and carrying Life Path 3 — the number of beauty, style, and creative expression — you are the soul who expresses timeless elegance and refined taste. Where the December 27th craftsman masters art over years and the January 2nd communicator gives words weight, your particular gift is refinement: you take the Three's creative, aesthetic gift and Capricorn's love of quality, classic form, and enduring value, becoming the soul whose expression isn't flashy or trend-chasing but refined, elegant, timeless — distinguished by taste, restraint, and a classic, enduring sense of beauty. Your gift is refined expression — combining Capricorn's elegance, quality, and classic sensibility with the Three's creativity, aesthetic gift, and expression, becoming the soul who creates and expresses with timeless refinement, whose taste, style, and sense of quality elevate everything they touch into something elegant and enduring. You are the refined creator, the one who expresses timeless elegance. You combine the Three's creativity with Capricorn's classic refinement. But your refined expression can stiffen: so concerned with taste, propriety, and classic form you suppress bold, raw, spontaneous creative expression, becoming polished but lifeless, or so attached to refinement and quality you become a snob, dismissive of anything that isn't elegant, losing the warmth and accessibility that make beauty human. You came here to express timeless elegance and refined taste — and to learn to let some boldness, rawness, and warmth into your refinement, so your elegance stays alive and human rather than stiff and exclusive.",
+    "headline": "The Refined Creator Who Expresses Timeless Elegance",
+    "keywords": ["Refined", "Elegant", "Tasteful"],
+    "strengths": ["Expressing timeless, classic elegance", "Elevating everything into something refined and enduring", "Distinguished taste, style, and quality", "Combining creativity with classic refinement"],
+    "weaknesses": ["Suppressing bold, raw, spontaneous expression", "Polished but lifeless", "Becoming a snob, dismissive of the inelegant", "Losing the warmth that makes beauty human"],
+    "theme": "Your life theme is 'elegance that stays alive and human.' Your gift to express timeless elegance elevates everything into something refined — but refinement so concerned with propriety it suppresses bold, raw expression, or so exclusive it becomes snobbery, leaves elegance stiff and lifeless. The growth is letting some boldness, rawness, and warmth into your refinement, so your elegance stays alive and human."
+  },
+  "love": "You love with refinement, depth, and classic devotion, expressing affection through elegant, quality gestures and a tasteful, enduring style of love. You bring elegance, loyalty, depth, and a refined, lasting devotion. Your challenge is being so refined and proper you suppress passion, boldness, and warmth, or being subtly dismissive of a partner who isn't as polished. The right partner appreciates your elegance yet draws out your boldness, rawness, and warmth. When you let love be both refined and raw, both elegant and warm, your refined heart expresses a devotion that's both beautiful and alive.",
+  "career": {
+    "description": "You belong where refined taste and elegance create lasting quality — design, fashion, fine arts, luxury, curation, classic craftsmanship, or any field where the Three's aesthetic gift and Capricorn's love of quality and classic form create timeless, elegant work. Crude, trend-chasing, or quality-blind roles offend your taste; so does stiff lifelessness. You thrive expressing timeless elegance — best when you keep some boldness, rawness, and warmth alive.",
+    "jobs": [
+      "Designer, stylist, or curator of refined taste",
+      "Fine artist or craftsperson of classic, enduring work",
+      "Luxury, fashion, or aesthetic professional",
+      "Creator of timeless, elegant work",
+      "Anyone who expresses refined, enduring elegance"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "May 11", "zodiac": "Taurus", "reason": "Their love of quality and beauty matches your refinement" },
+      { "date": "September 11", "zodiac": "Virgo", "reason": "Their refined care shares your tasteful sensibility" },
+      { "date": "June 11", "zodiac": "Gemini", "reason": "Their bold spontaneity draws warmth into your elegance" }
+    ],
+    "challenging": [
+      { "date": "March 11", "zodiac": "Pisces", "reason": "Their formlessness strains your love of classic form" },
+      { "date": "July 11", "zodiac": "Cancer", "reason": "Their emotional rawness can feel unrefined to you" },
+      { "date": "October 11", "zodiac": "Libra", "reason": "Two aesthetes may prize polish over warmth together" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Charcoal Gray", "Classic Ivory"],
+    "stones": ["Onyx", "Garnet"],
+    "flower": "Carnation",
+    "flowerMeaning": "Refined elegance · Timeless taste and enduring beauty",
+    "numbers": [3, 8],
+    "direction": "South"
+  },
+  "constitution": {
+    "description": "Capricorn governs the bones, joints, knees, teeth, and skin, and as a Life Path 3 you carry both Capricorn's enduring, structural constitution and the Three's expressive, aesthetic nervous energy — your bones and joints (Capricorn's domain, ruling structure) and the skin (also Capricorn's domain) that reflects your refined nature, plus the throat of an expressive soul. Suppressing bold expression and excess refinement-tension can throw off both your structure and your skin.",
+    "watchPoints": [
+      "Joint, knee, and bone strain from refined, controlled poise (Capricorn's domain)",
+      "Skin sensitivity reflecting refinement and suppressed expression (Capricorn's domain)",
+      "Throat and tension issues from suppressing bold, raw expression"
+    ],
+    "seasonalNote": "Your birthday season fills you with refined, elegant energy. Let boldness and warmth in — your Capricorn-ruled, structural and skin-sensitive system stays healthiest when your refinement allows some raw, bold, warm expression, your skin isn't tensed by suppression, and your elegance stays alive rather than stiff."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Bone-and-skin-supporting foods (calcium, collagen-rich, leafy greens)", "reason": "Support the bones and skin Capricorn rules" },
+      { "name": "Quality, beautifully-prepared whole foods", "reason": "Honor a refined sensibility wholesomely" },
+      { "name": "Warm, hearty, unpretentious meals too", "reason": "Bring warmth and groundedness to refined taste" }
+    ],
+    "herbs": [
+      { "name": "Nettle or horsetail tea", "reason": "Traditionally support bones, joints, and skin (Capricorn's domain)" },
+      { "name": "Rose or calendula tea", "reason": "Traditionally support the skin and bring warmth to refinement" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is elegance that stays alive and human — letting some boldness, rawness, and warmth into your refinement, so your elegance stays alive and human rather than stiff, lifeless, or exclusive.",
+    "habits": [
+      "Let some boldness and rawness into your refined expression",
+      "Don't suppress passion and spontaneity for the sake of polish",
+      "Keep warmth and accessibility in your elegance",
+      "Don't become a snob, dismissive of the inelegant"
+    ],
+    "stressManagement": "You discharge stress through refined, elegant expression, but must let in boldness and warmth. Nettle tea is said to support bones and skin, and rose to bring warmth, while letting some rawness, boldness, and warmth into your refinement keeps your elegance alive and human rather than stiff, lifeless, or exclusive."
+  },
+  "famousPeople": [
+    "Mary J. Blige (American singer)",
+    "Alexander Hamilton (American statesman)",
+    "Amanda Peet (American actress)",
+    "Rod Taylor (Australian actor)",
+    "Naomi Judd (American singer)",
+    "Diane von Fürstenberg (Belgian-American designer)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Express Timeless Elegance and Refined Taste",
+    "description": "The January 11th soul carries a contract of refined expression: to combine Capricorn's elegance, quality, and classic sensibility with the Three's creativity, aesthetic gift, and expression — to be the refined creator who creates and expresses with timeless refinement, whose taste, style, and sense of quality elevate everything they touch into something elegant and enduring, distinguished by restraint and a classic sense of beauty. You are here to express timeless elegance, combining the Three's creativity with Capricorn's classic refinement. You elevate into elegance. But your deeper mission is to keep it alive: to learn that your refined expression can stiffen, so concerned with taste, propriety, and classic form you suppress bold, raw, spontaneous creative expression, becoming polished but lifeless, or so attached to refinement and quality you become a snob, dismissive of anything that isn't elegant, losing the warmth and accessibility that make beauty human — and that the truest elegance stays alive, warm, and human. When you express timeless elegance and refined taste, while letting some boldness, rawness, and warmth into your refinement, you become a true refined creator — one who expresses elegant beauty AND keeps it alive and human, refined yet warm, classic yet bold.",
+    "sacredGift": "The Gift of Refined Expression",
+    "shadowWork": "Learning to let some boldness, rawness, and warmth into your refinement, so your elegance stays alive and human rather than stiff, lifeless, or snobbishly exclusive."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Refined Expression",
+    "overallTheme": "This year your gift for expressing timeless elegance and refined taste is called forth — beauty to elevate, elegance to express, quality to create. The universe rewards your refined expression, but tests whether you keep it alive and warm. The lesson this year is to express timeless elegance while letting some boldness, rawness, and warmth keep your refinement alive and human.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Express Elegance", "guidance": "Create and express with timeless, classic refinement and taste." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Elevate Into Beauty", "guidance": "Elevate what you touch into something elegant and enduring." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Let in Boldness", "guidance": "Let some bold, raw, spontaneous expression into your refinement." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Keep It Human", "guidance": "Keep warmth and accessibility. Don't become stiff or snobbish." }
+    ],
+    "warningWindow": "Early January: refinement so concerned with propriety it suppresses bold expression, or so exclusive it becomes snobbery, leaves elegance stiff and lifeless. Let in boldness and warmth.",
+    "openingWindow": "Around your birthday (early January): your refined expression is at its most elegant. Express timeless elegance — while keeping some boldness, rawness, and warmth alive."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your refined expression aligns with the universe's elegant current — moments to elevate, express, and warm.",
+    "dates": [
+      { "date": "January 11 (Solar Return)", "energy": "Refined Day", "action": "Express timeless elegance and refined taste. Refined expression is your birthday gift." },
+      { "date": "February 4", "energy": "Elegance Day", "action": "Elevate what you touch into something elegant and enduring." },
+      { "date": "March 26", "energy": "Boldness Day", "action": "Let some bold, raw, spontaneous expression into your refinement." },
+      { "date": "May 31", "energy": "Warmth Day", "action": "Keep warmth and accessibility. Don't become stiff or snobbish." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Partner Who Appreciates Your Elegance and Draws Out Your Boldness",
+    "description": "Your divine counterpart appreciates your elegance yet draws out your boldness, rawness, and warmth — a partner who values your refined taste and classic style yet brings out the passion, spontaneity, and warmth beneath, so your love is both elegant and alive.",
+    "qualities": [
+      "Appreciates your refined taste and elegance",
+      "Draws out your boldness, rawness, and warmth",
+      "Values your classic style yet brings passion",
+      "Makes your love both elegant and alive"
+    ],
+    "meetingSign": "You will likely meet through beauty, art, quality, or an elegant setting — a refined, tasteful connection. The connection will feel distinguished and classic, yet this is the one who draws out the bold, raw, warm passion beneath your refinement.",
+    "timing": "Most likely once you have learned to let in boldness and warmth — when your elegance is no longer stiff or exclusive, and you can be both refined and alive with a partner who draws out your warmth."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers expressing timeless elegance — a refined creator whose taste and style elevated everything into something classic and enduring, a soul distinguished by refinement, restraint, and an enduring sense of beauty. You knew the gift of refined expression. In this life, the love of quality, elegance, and classic form, the instinct to elevate and refine, rises in you without explanation, and crudeness and trend-chasing offend you. That is not mere taste. That is memory.",
+    "unfinishedLesson": "In a past incarnation, your refined expression stiffened — so concerned with taste, propriety, and classic form you suppressed bold, raw, spontaneous creative expression, becoming polished but lifeless, or so attached to refinement and quality you became a snob, dismissive of anything that wasn't elegant, losing the warmth and accessibility that make beauty human. This life is the one where you learn to let some boldness, rawness, and warmth into your refinement, so your elegance stays alive and human rather than stiff and exclusive."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Refined-Expression Ritual",
+    "description": "A potent ritual aligned with Capricorn-3 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a charcoal or ivory candle and take several slow breaths, feeling your refined, elegant, tasteful sensibility.",
+      "Name the thing you most want to express or create with timeless elegance this cycle.",
+      "Write one way you'll elevate it into something refined, classic, and enduring.",
+      "Then write one way you'll let BOLDNESS, rawness, or warmth into it, keeping it alive and human.",
+      "Place a hand on your heart and say: 'I express timeless elegance, and I keep it alive and human with boldness, rawness, and warmth.'",
+      "Name one way you'll keep your elegance warm and accessible, not snobbish, this cycle.",
+      "Create one refined, elegant thing and one bold, warm, raw thing this week."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I express timeless, classic elegance." },
+      { "day": "Tuesday", "affirmation": "I elevate everything into something refined and enduring." },
+      { "day": "Wednesday", "affirmation": "My taste and style distinguish all I create." },
+      { "day": "Thursday", "affirmation": "I let boldness and rawness into my refinement." },
+      { "day": "Friday", "affirmation": "I don't suppress passion for the sake of polish." },
+      { "day": "Saturday", "affirmation": "I keep warmth and accessibility in my elegance." },
+      { "day": "Sunday", "affirmation": "I express elegant beauty AND keep it alive and human." }
+    ]
+  }
+}

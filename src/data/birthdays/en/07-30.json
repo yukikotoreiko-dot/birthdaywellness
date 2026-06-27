@@ -1,0 +1,155 @@
+{
+  "month": 7,
+  "day": 30,
+  "zodiac": "Leo",
+  "zodiacRange": "Jul 23 - Aug 22",
+  "lifePathNumber": 1,
+  "personality": {
+    "description": "Born on July 30th, you carry Leo's radiant, confident fire fused with Life Path 1 — the number of originality, independence, and pioneering leadership. This is a doubly bold combination: both your sign and your number are made to lead, stand out, and go first. Your particular gift is being unmistakably original: you are the bold one-of-a-kind, the self-made original who leads by being utterly, confidently yourself — blazing your own trail, refusing to follow the crowd, and shining precisely because there is no one else like you. Leo is the proud individualist who must stand out; the One is the pioneer who goes first and forges their own path; and in you these combine into a soul of fierce originality and confidence — someone who doesn't fit a mold, who leads by example of daring self-belief, who becomes a standout by being authentically, boldly themselves. You have charisma, courage, and the rare confidence to stand alone. But your bold individuality can tip into ego and a need to be the only star, and your independence can isolate or steamroll others. You came here to lead by being boldly, originally yourself — and to learn to let others stand out too, tempering your confident individuality with humility and room for other lights.",
+    "headline": "The Bold Original Who Leads by Being Unmistakably Themselves",
+    "keywords": ["Original", "Bold", "Confident"],
+    "strengths": ["Fierce, unmistakable originality", "Leading by daring self-belief", "Blazing your own trail with confidence", "Standing out by being authentically yourself"],
+    "weaknesses": ["Ego and needing to be the only star", "Independence isolating or steamrolling others", "Difficulty sharing the spotlight", "Confidence tipping into arrogance"],
+    "theme": "Your life theme is 'standing out with room for others.' Your gift to lead by being boldly, originally yourself is magnetic and brave — but needing to be the only star, and steamrolling other lights, turns confidence into ego. The growth is shining as your bold, original self while making room for others to stand out too, tempering individuality with humility."
+  },
+  "love": "You love boldly and confidently, drawn to a partner who admires your originality and matches your fire, leading with daring affection and refusing a dull, conventional romance. You bring passion, confidence, and an exciting, one-of-a-kind devotion. Your challenge is needing to be the star of the relationship, steamrolling your partner's individuality, or letting ego crowd out their light. The right partner is confident and original in their own right, who shines beside you as an equal and won't be eclipsed. When you let love be two bold originals shining together rather than you alone, your confident heart finds a partnership as vivid and alive as you are.",
+  "career": {
+    "description": "You belong where bold originality leads — entrepreneurship, creative pioneering, founding ventures, standout individual roles, or any field that rewards being a confident, one-of-a-kind original. Conventional, follow-the-mold, anonymous work suffocates you. You thrive where you can blaze your own trail, lead by daring self-belief, and stand out by being unmistakably yourself.",
+    "jobs": [
+      "Founder, entrepreneur, or original pioneer",
+      "Creative innovator with a one-of-a-kind vision",
+      "Standout performer or distinctive individual brand",
+      "Bold leader who forges their own path",
+      "Anyone who leads by being unmistakably themselves"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "April 11", "zodiac": "Aries", "reason": "Their bold fire matches your confident originality" },
+      { "date": "November 27", "zodiac": "Sagittarius", "reason": "Their independent fire shines beside yours as an equal" },
+      { "date": "January 20", "zodiac": "Aquarius", "reason": "Their originality respects and matches your one-of-a-kind nature" }
+    ],
+    "challenging": [
+      { "date": "May 15", "zodiac": "Taurus", "reason": "Their love of convention resists your bold originality" },
+      { "date": "October 28", "zodiac": "Scorpio", "reason": "Two strong wills who may struggle for the spotlight" },
+      { "date": "June 16", "zodiac": "Cancer", "reason": "Their need for closeness strains your bold independence" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Gold", "Bold Scarlet"],
+    "stones": ["Sunstone", "Ruby"],
+    "flower": "Red Dahlia",
+    "flowerMeaning": "Bold originality · A trail blazed alone",
+    "numbers": [1, 3],
+    "direction": "East"
+  },
+  "constitution": {
+    "description": "Leo governs the heart, spine, and upper back, and as a bold Life Path 1 you carry both radiant vitality and a strong, initiating drive — your heart, Leo's seat, and your spine, the backbone of your confident bearing, running hot with the energy to lead and stand out. Pushing your bold individuality relentlessly, and the tension of always being the standout, can strain your heart and upper back.",
+    "watchPoints": [
+      "Heart and circulation strain from the drive to lead and stand out",
+      "Spine and upper-back tension from carrying bold individuality",
+      "Stress when ego and the need to be the only star run high"
+    ],
+    "seasonalNote": "Your birthday season fires up your bold, original drive. Channel it with humility and rest — your Sun-ruled, initiating system stays healthiest when your confidence makes room for others and your fire is balanced with recovery rather than burning to always be the standout."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Heart-supporting foods (oily fish, leafy greens)", "reason": "Protect the heart Leo rules under bold drive" },
+      { "name": "Vital, energizing whole foods", "reason": "Fuel a confident, trail-blazing body" },
+      { "name": "Steady, grounding meals", "reason": "Anchor a fast-running, standout system" }
+    ],
+    "herbs": [
+      { "name": "Hawthorn or rosehip tea", "reason": "Traditionally support a bold, fast-running heart" },
+      { "name": "Peppermint or ginger tea", "reason": "Refresh and steady a driven, initiating system" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is confidence with humility — shining as your bold, original self while making room for others to stand out too, tempering ego so your individuality inspires rather than eclipses.",
+    "habits": [
+      "Make room for others to shine and stand out too",
+      "Temper confidence with humility and genuine listening",
+      "Lead by example without steamrolling others",
+      "Channel your bold drive with rest and grounding"
+    ],
+    "stressManagement": "You discharge stress through bold self-expression and leading, but must temper ego with humility. Rosemary and Frankincense aromatherapy are said to steady a bold, radiant system, while making room for others' lights keeps your confident originality inspiring rather than isolating or domineering."
+  },
+  "famousPeople": [
+    "Arnold Schwarzenegger (Austrian-American actor)",
+    "Hilary Swank (American actress)",
+    "Lisa Kudrow (American actress)",
+    "Henry Ford (American industrialist)",
+    "Emily Brontë (British author)",
+    "Christopher Nolan (British filmmaker)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Lead by Being Unmistakably Yourself",
+    "description": "The July 30th soul carries a doubly bold contract: with both Leo and Life Path 1 made to lead and stand out, you are here to be unmistakably original — the self-made one-of-a-kind who leads by being utterly, confidently yourself, blazing your own trail, refusing the mold, and shining precisely because there is no one else like you. You are here to lead by example of daring self-belief, to become a standout by being authentically bold. You prove that originality and confidence are themselves a kind of leadership. But your deeper mission is to make room for others: to learn that needing to be the only star, and steamrolling other lights, turns your confidence into ego, and that the boldest originals let others shine too. When you lead by being unmistakably yourself while making room for others to stand out — tempering your individuality with humility — you become a true bold original: a standout who inspires others to dare to be themselves, rather than a star who needs to be the only light in the room.",
+    "sacredGift": "The Gift of Bold Originality",
+    "shadowWork": "Learning to make room for others to stand out, to temper your confidence with humility, and to let your individuality inspire others rather than eclipse them."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Bold Originality",
+    "overallTheme": "This year calls you to lead by being unmistakably yourself — to blaze your own trail, stand out, and dare your bold originality. The universe rewards your confident individuality, but tests whether you make room for others. The lesson this year is to shine as your bold, original self while letting others stand out too, tempering your individuality with humility.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Dare to Stand Out", "guidance": "Be unmistakably yourself. Blaze your own original trail." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Lead by Self-Belief", "guidance": "Lead by example of daring confidence. Forge your path." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Make Room for Others", "guidance": "Let others shine and stand out too. Don't be the only star." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Confident Yet Humble", "guidance": "Inspire others to be themselves, rather than eclipsing them." }
+    ],
+    "warningWindow": "Late September: needing to be the only star, or steamrolling others, may turn your confidence into ego and isolate you. Make room for other lights and temper your individuality with humility.",
+    "openingWindow": "Around your birthday (late July): your bold originality is at its most magnetic. Dare to be unmistakably yourself — and make room for others to shine too."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your bold originality aligns with the universe's go-signal — moments to stand out, lead, and make room.",
+    "dates": [
+      { "date": "July 30 (Solar Return)", "energy": "Original Day", "action": "Lead by being unmistakably yourself. Bold originality is your birthday gift." },
+      { "date": "August 19", "energy": "Trailblazing Day", "action": "Blaze your own original trail. Dare your daring self-belief." },
+      { "date": "October 7", "energy": "Room-for-Others Day", "action": "Let someone else shine and stand out. Don't be the only star." },
+      { "date": "December 12", "energy": "Humble-Confidence Day", "action": "Inspire others to be themselves, rather than eclipsing them." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Confident, Original Equal Who Shines Beside You",
+    "description": "Your divine counterpart is confident and original in their own right, who shines beside you as an equal and won't be eclipsed — a partner bold enough to stand out alongside you, so two originals shine together rather than one alone.",
+    "qualities": [
+      "Confident and original, an equal to your bold fire",
+      "Shines in their own right, never in your shadow",
+      "Won't be eclipsed or steamrolled by your individuality",
+      "Bold enough to blaze their own trail beside yours"
+    ],
+    "meetingSign": "You will likely meet while you're boldly being yourself — standing out, blazing a trail, daring something original. The connection will feel like two vivid originals recognizing each other as equals.",
+    "timing": "Most likely once you have learned to make room for others — when you no longer need to be the only star, and can let a bold equal shine brightly beside you."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers being unmistakably original — a pioneer who blazed a trail no one had walked, a bold one-of-a-kind who led by daring self-belief, a standout who refused the mold. You knew the power of being confidently, originally yourself. In this life, the urge to stand out and forge your own path rises in you without explanation, and following the crowd chafes deeply. That is not mere ego. That is memory.",
+    "unfinishedLesson": "In a past incarnation, your bold originality grew so ego-driven that you needed to be the only star — steamrolling and eclipsing every other light until you stood out gloriously but alone, admired yet resented. This life is the one where you learn to lead by being yourself while making room for others — to shine as a bold original who inspires others to dare to be themselves, rather than a star who must be the only light in the room."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Bold-Original Ritual",
+    "description": "A potent ritual aligned with Leo-1 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a gold or scarlet candle and take several slow breaths, standing tall in your bold, original self.",
+      "Name the trail you most want to blaze by being unmistakably yourself this cycle.",
+      "Write the daring, confident step that will lead by self-belief.",
+      "Then write one way you will make room for others to shine too.",
+      "Stand tall and say: 'I lead by being unmistakably myself, and I make room for others to shine.'",
+      "Name one place where you will temper confidence with humility.",
+      "Take one bold original step and one room-making step this week."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I lead by being unmistakably myself." },
+      { "day": "Tuesday", "affirmation": "I shine because there is no one else like me." },
+      { "day": "Wednesday", "affirmation": "I blaze my own trail with daring confidence." },
+      { "day": "Thursday", "affirmation": "I make room for others to stand out too." },
+      { "day": "Friday", "affirmation": "I temper my confidence with humility." },
+      { "day": "Saturday", "affirmation": "My originality inspires others to be themselves." },
+      { "day": "Sunday", "affirmation": "I am a bold original who lets others shine beside me." }
+    ]
+  }
+}

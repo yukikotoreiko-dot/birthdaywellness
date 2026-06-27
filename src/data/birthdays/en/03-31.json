@@ -1,0 +1,155 @@
+{
+  "month": 3,
+  "day": 31,
+  "zodiac": "Aries",
+  "zodiacRange": "Mar 21 - Apr 19",
+  "lifePathNumber": 7,
+  "personality": {
+    "description": "Born on March 31st under active, direct Aries and carrying Life Path 7 — the number of the seeker, the analyst, the one who searches for truth — you are the soul who finds truth through action and direct experience. Where the March 22nd soul fearlessly pursues truth through bold inquiry, your particular gift is experiential knowing: you take the Seven's search for deep truth and Aries's drive to act and do, becoming the soul who finds truth not by armchair contemplation but by diving in and experiencing — testing ideas through action, learning by doing, and discovering deep truth through direct, lived, hands-on experience rather than detached theory. Your gift is experiential wisdom — combining Aries's drive to act and experience directly with the Seven's depth and search for truth, becoming the soul who finds deep truth through action and direct experience, learning and knowing by doing and living rather than only theorizing. You are the experiential seeker, the one who finds truth through action. You combine Aries's action with the Seven's search. But your experiential knowing can pull two ways: Aries's drive to act fast may make you dive into experience before reflecting, charging into action without the Seven's deep reflection on what you're learning, gathering experiences without extracting their wisdom, or the Seven's need for solitary reflection may war with Aries's drive to act, leaving you torn between diving into experience and withdrawing to reflect, doing neither fully. You came here to find deep truth through action and direct experience — and to learn to balance acting and reflecting, diving into experience AND reflecting deeply on it, so your action becomes wisdom rather than just activity.",
+    "headline": "The Experiential Seeker Who Finds Truth Through Action",
+    "keywords": ["Experiential", "Active", "Truth-seeking"],
+    "strengths": ["Finding deep truth through action and experience", "Learning and knowing by doing and living", "Testing ideas through direct, lived experience", "Combining the drive to act with the search for truth"],
+    "weaknesses": ["Diving into action before reflecting", "Gathering experiences without extracting wisdom", "Torn between diving in and withdrawing to reflect", "Doing neither acting nor reflecting fully"],
+    "theme": "Your life theme is 'action that becomes wisdom through reflection.' Your gift to find deep truth through action and direct experience learns by doing — but acting so fast you never reflect, gathering experiences without wisdom, or torn between acting and reflecting, leaves your experience unprocessed. The growth is balancing acting and reflecting, diving into experience AND reflecting deeply on it, so your action becomes wisdom rather than just activity."
+  },
+  "love": "You love actively yet thoughtfully, learning love through direct experience and reflecting on what it teaches you. You bring directness, depth, genuine experience, and thoughtful passion. Your challenge is diving into relationships through action without reflecting on what they teach, or being torn between throwing yourself into love and withdrawing to reflect on it. The right partner shares your directness yet reflects with you on what your shared experience means. When you let love be both actively lived and deeply reflected on, your experiential heart turns the experience of love into real wisdom.",
+  "career": {
+    "description": "You belong where truth is found through action and experience — hands-on research, experiential learning, fields that test ideas through doing, applied work that turns experience into understanding, any field where Aries's drive to act and the Seven's search can find truth through lived experience. Purely theoretical OR purely thoughtless-action roles both fail you. You thrive finding truth through action — best when you balance acting and reflecting, turning experience into wisdom.",
+    "jobs": [
+      "Experiential researcher or hands-on investigator",
+      "Applied thinker who tests ideas through action",
+      "Learner-by-doing who turns experience into understanding",
+      "Active seeker who finds truth through lived experience",
+      "Anyone who finds deep truth through action and direct experience"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "July 31", "zodiac": "Leo", "reason": "Their bold action shares your experiential drive" },
+      { "date": "August 31", "zodiac": "Virgo", "reason": "Their thoughtful doing meets your experiential search" },
+      { "date": "November 22", "zodiac": "Sagittarius", "reason": "Their love of lived truth matches your experiential wisdom" }
+    ],
+    "challenging": [
+      { "date": "June 31", "zodiac": "Cancer", "reason": "Their need for emotional reflection strains your drive to act" },
+      { "date": "October 31", "zodiac": "Scorpio", "reason": "Their depth strains your fast-acting experiential nature" },
+      { "date": "September 31", "zodiac": "Libra", "reason": "Their hesitation frustrates your drive to dive in" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Bright Red", "Deep Indigo"],
+    "stones": ["Bloodstone", "Red Jasper"],
+    "flower": "Tulip",
+    "flowerMeaning": "Experiential wisdom · Finding truth through action and experience",
+    "numbers": [7, 1],
+    "direction": "South"
+  },
+  "constitution": {
+    "description": "Aries governs the head, face, brain, muscles, and blood, and as a Life Path 7 you carry both Aries's hot, fast, fiery constitution and the Seven's cerebral, overthinking-prone, reflection-needing sensitivity — your head and brain (Aries's domain, ruling action and thought) and a searching mind torn between diving in and reflecting. The tension between fast action and deep reflection can overheat both your fiery system and your nervous system.",
+    "watchPoints": [
+      "Headaches and head tension from fast action and overthinking (Aries and the Seven)",
+      "Nervous-system strain from the push-pull of acting vs. reflecting",
+      "Overheating and burnout from diving into experience without rest"
+    ],
+    "seasonalNote": "Your birthday season fills you with active, truth-seeking energy. Balance acting and reflecting — your Aries-ruled fiery head and your sensitive nerves stay healthiest when you balance diving into experience with deep reflection and rest, your head isn't overheated by fast action, and you turn your experience into wisdom rather than just activity."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Cooling, anti-inflammatory foods (cucumber, leafy greens, berries)", "reason": "Cool a hot, fast-acting Aries constitution" },
+      { "name": "Brain-supporting foods (omega-3s, nuts, blueberries)", "reason": "Support the brain Aries governs and a searching mind" },
+      { "name": "Grounding, calming meals", "reason": "Steady a system torn between action and reflection" }
+    ],
+    "herbs": [
+      { "name": "Chamomile or peppermint tea", "reason": "Traditionally cool Aries-ruled head heat" },
+      { "name": "Gotu kola or lemon balm", "reason": "Traditionally support reflection and calm an active, searching mind" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is action that becomes wisdom through reflection — balancing acting and reflecting, diving into experience AND reflecting deeply on it, so your action becomes wisdom rather than just activity.",
+    "habits": [
+      "Balance acting and reflecting",
+      "Dive into experience AND reflect deeply on it",
+      "Extract the wisdom from your experiences, don't just gather them",
+      "Turn your action into wisdom rather than just activity"
+    ],
+    "stressManagement": "You discharge stress through action and direct experience, but must also reflect deeply. Chamomile tea is said to cool Aries head-heat and gotu kola to support reflection, while balancing acting and reflecting — diving into experience AND reflecting deeply on it — keeps your experiential knowing turning into real wisdom rather than just unprocessed activity."
+  },
+  "famousPeople": [
+    "René Descartes (French philosopher)",
+    "Christopher Walken (American actor)",
+    "Ewan McGregor (Scottish actor)",
+    "Al Gore (American politician)",
+    "Cesar Chavez (American labor leader)",
+    "Shirley Jones (American actress)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Find Deep Truth Through Action and Direct Experience",
+    "description": "The March 31st soul carries a contract of experiential wisdom: to combine Aries's drive to act and experience directly with the Seven's depth and search for truth — to be the experiential seeker who finds truth not by armchair contemplation but by diving in and experiencing, testing ideas through action, learning by doing, and discovering deep truth through direct, lived, hands-on experience rather than detached theory. You are here to find truth through action, combining Aries's action with the Seven's search. You learn by doing. But your deeper mission is to balance action and reflection: to learn that your experiential knowing can pull two ways, Aries's drive to act fast making you dive into experience before reflecting, charging into action without the Seven's deep reflection on what you're learning, gathering experiences without extracting their wisdom, or the Seven's need for solitary reflection warring with Aries's drive to act, leaving you torn between diving into experience and withdrawing to reflect, doing neither fully — and that experience becomes wisdom only when you balance acting and reflecting. When you find deep truth through action and direct experience, while balancing acting and reflecting, diving into experience AND reflecting deeply on it, you become a true experiential seeker — one who finds truth through action AND turns it into wisdom, learning by doing and reflecting both, so your experience becomes real, lived wisdom.",
+    "sacredGift": "The Gift of Experiential Wisdom",
+    "shadowWork": "Learning to balance acting and reflecting, diving into experience AND reflecting deeply on it, so your action becomes wisdom rather than just activity — neither charging in without reflection nor torn between acting and withdrawing."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Experiential Wisdom",
+    "overallTheme": "This year your gift for finding deep truth through action and direct experience is called forth — truth to find through doing, experience to learn from, wisdom to extract from lived life. The universe rewards your experiential wisdom, but tests whether you balance acting and reflecting. The lesson this year is to find truth through action while reflecting deeply on it, turning experience into wisdom.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Find Truth Through Action", "guidance": "Dive in and experience. Test ideas through action and learn by doing." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Learn by Living", "guidance": "Discover deep truth through direct, lived, hands-on experience." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Reflect on Experience", "guidance": "Reflect deeply on what your experience teaches. Extract its wisdom." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Turn Action Into Wisdom", "guidance": "Balance acting and reflecting so your action becomes wisdom, not just activity." }
+    ],
+    "warningWindow": "Late March: acting so fast you never reflect, gathering experiences without wisdom, or torn between acting and reflecting, leaves your experience unprocessed. Balance acting and reflecting.",
+    "openingWindow": "Around your birthday (late March): your experiential wisdom is at its most alive. Find deep truth through action and direct experience — balanced with deep reflection that turns it to wisdom."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your experiential wisdom aligns with the universe's truth-finding current — moments to act, experience, and reflect.",
+    "dates": [
+      { "date": "March 31 (Solar Return)", "energy": "Experiential-Seeker Day", "action": "Find deep truth through action and direct experience. Experiential wisdom is your birthday gift." },
+      { "date": "April 23", "energy": "Living Day", "action": "Discover deep truth through direct, lived, hands-on experience." },
+      { "date": "June 11", "energy": "Reflection Day", "action": "Reflect deeply on what your experience teaches. Extract its wisdom." },
+      { "date": "August 16", "energy": "Wisdom Day", "action": "Balance acting and reflecting so your action becomes wisdom, not just activity." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Partner Who Shares Your Directness Yet Reflects With You",
+    "description": "Your divine counterpart shares your directness yet reflects with you on what your shared experience means — a partner who dives into life and love alongside you yet helps you reflect on and extract the wisdom from your shared experiences.",
+    "qualities": [
+      "Shares your directness and drive to experience",
+      "Reflects with you on what experience means",
+      "Dives into life and love alongside you",
+      "Helps you turn shared experience into wisdom"
+    ],
+    "meetingSign": "You will likely meet through doing something together — a shared experience, an adventure, an active connection. The connection will feel direct and real, lived rather than theorized, yet this is the one who reflects with you on what your shared experience means, turning it into wisdom.",
+    "timing": "Most likely once you have learned to balance acting and reflecting — when you no longer just gather experiences, and can live and reflect on love with a partner who shares your directness and reflects with you."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers finding truth through action — an experiential seeker who found deep truth not by armchair contemplation but by diving in and experiencing, testing ideas through action and discovering truth through direct, lived experience. You knew the gift of experiential wisdom. In this life, the drive to find truth by doing, to learn through direct experience, to test ideas through action, rises in you without explanation, and detached theory without lived experience feels empty. That is not mere restlessness. That is memory.",
+    "unfinishedLesson": "In a past incarnation, your experiential knowing pulled two ways — either Aries's drive to act fast made you dive into experience before reflecting, charging into action without the Seven's deep reflection on what you were learning, gathering experiences without extracting their wisdom, or the Seven's need for solitary reflection warred with Aries's drive to act, leaving you torn between diving into experience and withdrawing to reflect, doing neither fully. This life is the one where you learn to balance acting and reflecting, diving into experience AND reflecting deeply on it, so your action becomes wisdom rather than just activity."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Experiential-Wisdom Ritual",
+    "description": "A potent ritual aligned with Aries-7 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a red or indigo candle and take several slow breaths, feeling your active, truth-seeking, experiential spirit.",
+      "Name the truth you most want to find through action and direct experience this cycle.",
+      "Write one way you'll dive in and experience it directly, learning by doing.",
+      "Then write how you'll REFLECT deeply on what the experience teaches, extracting its wisdom.",
+      "Place a hand on your heart and say: 'I find deep truth through action and direct experience, balanced with deep reflection that turns it to wisdom.'",
+      "Name one experience you'll both dive into and reflect on this cycle.",
+      "Find one truth through action and reflect on it deeply this week."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I find deep truth through action and experience." },
+      { "day": "Tuesday", "affirmation": "I learn and know by doing and living." },
+      { "day": "Wednesday", "affirmation": "I test ideas through direct, lived experience." },
+      { "day": "Thursday", "affirmation": "I balance acting and reflecting." },
+      { "day": "Friday", "affirmation": "I dive into experience AND reflect deeply on it." },
+      { "day": "Saturday", "affirmation": "I extract the wisdom from my experiences." },
+      { "day": "Sunday", "affirmation": "I find truth through action AND turn it into real, lived wisdom." }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "month": 7,
+  "day": 2,
+  "zodiac": "Cancer",
+  "zodiacRange": "Jun 21 - Jul 22",
+  "lifePathNumber": 9,
+  "personality": {
+    "description": "Born on July 2nd, you carry Cancer's deep, Moon-ruled heart fused with Life Path 9 — the number of compassion, wisdom, and the old soul. Where the June 21st soul nurtures the world and the June 30th soul learns to release, your particular gift is the wounded healer's: you transmute your own emotional pain into compassion and healing for others. Cancer feels everything deeply, including its own hurts; the Nine asks you to alchemize that feeling into universal love; and you are the one who takes what wounded you and turns it into the very medicine you offer the world. Having felt deep sorrow yourself, you understand others' pain from the inside, and your healing carries a tenderness that only the wounded can give. You are the old soul who has suffered and grown wise and gentle through it, the comforter who has been there. You combine the Moon's depth of feeling with the Nine's transmuting compassion. But your own unhealed wounds can leak into your giving, and you can lose yourself in others' pain. You came here to turn your wounds into healing for others — and to learn to tend your own old hurts so your compassion flows from a healed place, not a bleeding one.",
+    "headline": "The Wounded Healer Who Turns Pain Into Compassion",
+    "keywords": ["Compassionate", "Wise", "Healing"],
+    "strengths": ["Transmuting personal pain into healing for others", "Understanding suffering from the inside", "An old soul's tender wisdom", "Comfort that only the wounded can give"],
+    "weaknesses": ["Unhealed wounds leaking into your giving", "Losing yourself in others' pain", "Tending everyone but yourself", "Carrying old sorrow too long"],
+    "theme": "Your life theme is 'healing from a healed place.' Your gift to turn your own pain into compassion for others is profound — but giving from a wound that still bleeds drains you and tangles your healing with your hurt. The growth is tending your own old wounds so your compassion flows from a place that has healed, offering others the medicine of someone who has not only suffered but come through."
+  },
+  "love": "You love with profound depth, tenderness, and an intuitive understanding of your partner's pain, often drawn to those who are hurting and need your gentle healing. You bring compassion, emotional wisdom, and a heart that has known sorrow and grown soft rather than hard. Your challenge is being drawn to wounded partners you try to heal, losing yourself in their pain, or giving from your own unhealed places. The right partner is emotionally deep and whole enough to meet you as an equal, who tends your old wounds as you tend theirs. When you let love be mutual healing between two whole hearts rather than a rescue, your tender heart finds the deep, healing companionship it has always given others.",
+  "career": {
+    "description": "You belong where your own healed wounds become medicine for others — counseling, therapy, recovery work, caregiving, the healing arts, spiritual guidance, or any field that helps the suffering through compassion born of experience. Cold or shallow work starves your old soul. You thrive where your hard-won emotional wisdom comforts and heals those still in the dark you've passed through.",
+    "jobs": [
+      "Therapist, counselor, or recovery guide",
+      "Caregiver, nurse, or comfort-giver",
+      "Healer, spiritual guide, or grief worker",
+      "Writer or artist who transmutes pain into meaning",
+      "Anyone who heals others through their own hard-won wisdom"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "March 11", "zodiac": "Pisces", "reason": "Two old water souls who heal and understand each other deeply" },
+      { "date": "November 5", "zodiac": "Scorpio", "reason": "Their depth of feeling and transformation meets your healing heart" },
+      { "date": "September 23", "zodiac": "Virgo", "reason": "Their caring service complements your compassionate wisdom" }
+    ],
+    "challenging": [
+      { "date": "January 20", "zodiac": "Aquarius", "reason": "Their detachment leaves your deep, feeling heart unmet" },
+      { "date": "April 4", "zodiac": "Aries", "reason": "Their bluntness reopens your tender old wounds" },
+      { "date": "December 28", "zodiac": "Capricorn", "reason": "Their reserve can feel cold to your healing warmth" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Silver", "Soft Sage Green"],
+    "stones": ["Moonstone", "Green Aventurine"],
+    "flower": "White Lily",
+    "flowerMeaning": "Healing · Pain transmuted to compassion",
+    "numbers": [9, 2],
+    "direction": "North"
+  },
+  "constitution": {
+    "description": "Cancer governs the stomach, chest, and digestive system, and as a deeply feeling Life Path 9 you carry both your own old wounds and the pain you absorb from others — lodged in your stomach and chest, where Cancer feels and unhealed sorrow sits. Giving from a bleeding wound and absorbing others' pain can leave your digestion heavy and your heart tight.",
+    "watchPoints": [
+      "Digestive heaviness from carrying old, unhealed emotion",
+      "Chest tightness from absorbing others' pain and your own",
+      "Depletion from healing others while your own wounds bleed"
+    ],
+    "seasonalNote": "Your birthday season stirs both old wounds and your healing calling. Tend your own hurts as devotedly as you tend others' — your deep, Moon-ruled system stays healthiest when your compassion flows from a healed place, and when you release the sorrow you've carried too long."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Warm, soothing, easily-digestible foods", "reason": "Comfort a stomach that holds old sorrow" },
+      { "name": "Moon-foods and calcium (dairy, greens)", "reason": "Traditionally nourishing for Moon-ruled Cancer" },
+      { "name": "Gentle, nourishing, restorative meals", "reason": "Replenish a healer who pours out compassion" }
+    ],
+    "herbs": [
+      { "name": "Rose or chamomile tea", "reason": "Traditionally associated with easing and tending the heart" },
+      { "name": "Lemon balm tea", "reason": "Soothes a heart heavy with old and absorbed feeling" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is healing your own wounds — tending the old hurts you transmute for others, releasing sorrow you've carried too long, and making sure your compassion flows from a healed place rather than a bleeding one.",
+    "habits": [
+      "Tend your own old wounds as devotedly as you tend others'",
+      "Release sorrow you've carried past its time",
+      "Receive healing and comfort, don't only give it",
+      "Notice when your giving comes from an unhealed place"
+    ],
+    "stressManagement": "You discharge stress through healing and comforting others, but must learn to discharge your own pain too. Water rituals (letting tears and the tide carry sorrow out) and Rose or Frankincense aromatherapy are said to tend and release an old, feeling heart, so your compassion flows from a place that has healed."
+  },
+  "famousPeople": [
+    "Margot Robbie (Australian actress)",
+    "Lindsay Lohan (American actress)",
+    "Larry David (American comedian)",
+    "Ashley Tisdale (American actress)",
+    "Hermann Hesse (German author)",
+    "Thurgood Marshall (American Supreme Court Justice)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Turn Your Wounds Into Healing for Others",
+    "description": "The July 2nd soul carries a contract of the wounded healer: to take Cancer's deep capacity for feeling — including its own sorrows — and transmute it, through the Nine's alchemy, into compassion and healing for others. Having felt deep pain yourself, you understand suffering from the inside, and the comfort you offer carries a tenderness only the wounded can give. You are here to be the old soul who has suffered and grown gentle and wise through it, the healer who has been there. But your deeper mission is to heal from a healed place: to learn that giving from a wound that still bleeds drains you and tangles your medicine with your hurt, and that you must tend your own old sorrows as devotedly as you tend others'. When you turn your healed wounds into healing for others, you become a true wounded healer — offering the world not just sympathy, but the proven medicine of someone who has come all the way through.",
+    "sacredGift": "The Gift of Healing Born of Pain",
+    "shadowWork": "Learning to tend and heal your own old wounds, to receive comfort as well as give it, and to let your compassion flow from a place that has healed rather than one that still bleeds."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of the Wounded Healer",
+    "overallTheme": "This year invites you to heal your own old wounds and turn them into compassion for others — your past pain is ready to become medicine, and your gift for tender healing is called forth. The universe asks you to tend yourself as you tend others. The lesson this year is to transmute your pain into healing while making sure your own heart heals first, so your compassion flows from a whole place.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Tend Your Own Wounds", "guidance": "Heal the old sorrows you usually pour into others' care." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Transmute the Pain", "guidance": "Turn what wounded you into compassion and wisdom." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Heal From a Healed Place", "guidance": "Offer the medicine of one who has come through, not still bleeds." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Give and Receive", "guidance": "Let yourself be comforted as freely as you comfort others." }
+    ],
+    "warningWindow": "Late October: giving from an unhealed wound, or losing yourself in another's pain, may deplete you and reopen old sorrow. Tend your own heart before you pour out more.",
+    "openingWindow": "Around your birthday (early July): a chance to heal an old wound and transmute it into compassion opens. Tend yourself, then heal."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your healing heart aligns with the universe's tender current — moments to heal, transmute, and receive.",
+    "dates": [
+      { "date": "July 2 (Solar Return)", "energy": "Healer Day", "action": "Tend an old wound and turn it into compassion. Healing born of pain is your birthday gift." },
+      { "date": "August 19", "energy": "Transmuting Day", "action": "Turn what once hurt you into medicine for another." },
+      { "date": "October 7", "energy": "Receiving Day", "action": "Let yourself be comforted. Receive healing, don't only give it." },
+      { "date": "December 12", "energy": "Wholeness Day", "action": "Heal from a healed place. Offer the medicine of one who came through." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Whole, Deep Soul Who Heals Beside You as an Equal",
+    "description": "Your divine counterpart is emotionally deep yet whole enough to meet you as an equal — not a wounded one to rescue, but a partner who tends your old hurts as devotedly as you tend theirs, so love is mutual healing rather than one-way rescue.",
+    "qualities": [
+      "Emotionally deep, meeting your feeling heart",
+      "Whole enough to be an equal, not a rescue project",
+      "Tends your old wounds as devotedly as you tend others'",
+      "Makes love a place of mutual healing"
+    ],
+    "meetingSign": "You will likely meet through healing, compassion, or shared depth — in a tender setting, through helping work, or in a moment where two old souls recognize each other. The connection will feel like being understood by someone who has also come through.",
+    "timing": "Most likely once you have tended your own wounds — when you stop seeking partners to heal and can meet a whole equal who heals beside you."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers turning suffering into care — a healer who had known illness and so understood the sick, a comforter who had grieved and so could sit with the grieving, an old soul whose own sorrows made them gentle. You knew the medicine that only the wounded can give. In this life, you are drawn to the hurting and understand pain from the inside, and old sorrow lives close to the surface. That is not mere sadness. That is memory.",
+    "unfinishedLesson": "In a past incarnation, you healed everyone but yourself — pouring compassion from wounds that never closed, losing yourself in others' pain, carrying your own sorrow to the end untended. This life is the one where you learn to heal your own wounds first — so that the compassion you give the world flows from a heart that has come through, not one that still quietly bleeds."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Wounded-Healer Ritual",
+    "description": "A potent ritual aligned with Cancer-9 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a silver or sage-green candle near water and take several slow breaths, hand on your heart.",
+      "Name an old wound of your own that is ready to be tended and healed.",
+      "Write a few words of compassion to yourself for it, as you would to another.",
+      "Then write how, once healed, it could become medicine you offer others.",
+      "Place a hand on your heart and say: 'I heal my own wounds, and my compassion flows from a healed place.'",
+      "Name one way you will receive comfort this cycle, not only give it.",
+      "Take one act of self-healing and one act of compassion for another this week."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I turn my own pain into compassion for others." },
+      { "day": "Tuesday", "affirmation": "I understand suffering from the inside." },
+      { "day": "Wednesday", "affirmation": "I tend my own old wounds as devotedly as others'." },
+      { "day": "Thursday", "affirmation": "I receive comfort as freely as I give it." },
+      { "day": "Friday", "affirmation": "My compassion flows from a place that has healed." },
+      { "day": "Saturday", "affirmation": "I release the sorrow I have carried too long." },
+      { "day": "Sunday", "affirmation": "I offer the medicine of one who has come through." }
+    ]
+  }
+}

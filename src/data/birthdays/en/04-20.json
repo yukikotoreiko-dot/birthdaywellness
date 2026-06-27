@@ -1,0 +1,155 @@
+{
+  "month": 4,
+  "day": 20,
+  "zodiac": "Taurus",
+  "zodiacRange": "Apr 20 - May 20",
+  "lifePathNumber": 6,
+  "personality": {
+    "description": "Born on April 20th, you stand at the threshold where Aries' fire settles into Taurus' steady earth — and you carry Life Path 6, the number of love, responsibility, and harmony. You are a natural nurturer with a backbone: warm, devoted, and deeply loyal, yet grounded by Taurus' unshakeable will. People feel safe with you because you are reliable in a way that is increasingly rare; you show up, you follow through, you create comfort and beauty wherever you settle. Your home, your relationships, and the people you love are the center of your world. But your gift for caretaking can tip into over-giving, and you must learn that you, too, deserve to be held. You came here to build a sanctuary — and to remember that you belong inside it.",
+    "headline": "The Devoted Heart That Builds Sanctuary for Others",
+    "keywords": ["Nurturing", "Loyal", "Harmonizing"],
+    "strengths": ["Deep devotion", "Reliability", "Creating beauty and comfort", "Healing presence"],
+    "weaknesses": ["Over-giving and self-neglect", "Difficulty receiving", "Taking on others' burdens", "Resistance to needed change"],
+    "theme": "Your life theme is 'loving others without abandoning yourself.' Your generosity is a gift — but a cup that only pours runs dry. The growth is learning that receiving care is not selfish; it is what keeps your well full enough to give from."
+  },
+  "love": "You love wholeheartedly and for the long term, pouring devotion, comfort, and steady affection into your relationships. You are the partner who remembers the small things, builds the cozy home, and stays through the hard seasons. Your challenge is balance: you give so completely that you can lose yourself, or quietly resent a partner who takes without returning. The right partner cherishes your devotion and insists on caring for you in return. You thrive with someone affectionate, dependable, and emotionally present — a partner who makes the sanctuary a shared one. When you let yourself be nurtured as fully as you nurture, your love becomes a true home for two.",
+  "career": {
+    "description": "You belong wherever care, beauty, and reliability matter — anywhere you can nurture, create comfort, or hold things together for others. You are the dependable heart of any team, and you thrive in roles that let your warmth and steadiness shine.",
+    "jobs": [
+      "Healthcare, caregiving, or wellness professional",
+      "Teacher, counselor, or community builder",
+      "Chef, hospitality, or anyone who creates comfort",
+      "Interior designer, florist, or beauty-focused creative",
+      "Manager who keeps a team cohesive and cared for"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "June 16", "zodiac": "Cancer", "reason": "Two devoted hearts who build a warm, secure home" },
+      { "date": "September 16", "zodiac": "Virgo", "reason": "Shared values of service, care, and doing things well" },
+      { "date": "January 10", "zodiac": "Capricorn", "reason": "A grounded pair who build lasting security together" }
+    ],
+    "challenging": [
+      { "date": "February 15", "zodiac": "Aquarius", "reason": "Their detachment leaves your warm heart wanting more" },
+      { "date": "November 22", "zodiac": "Sagittarius", "reason": "Their restless freedom unsettles your need for steady devotion" },
+      { "date": "August 14", "zodiac": "Leo", "reason": "Two strong wills can clash over whose needs come first" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Rose Pink", "Sage Green"],
+    "stones": ["Emerald", "Rose Quartz"],
+    "flower": "Lily of the Valley",
+    "flowerMeaning": "Devotion · The return of happiness",
+    "numbers": [6, 20],
+    "direction": "Southeast"
+  },
+  "constitution": {
+    "description": "Taurus governs the neck, throat, and thyroid, and as a Life Path 6 you carry the weight of everyone you care for — often in your shoulders, neck, and heart. You give generously and absorb others' stress, so your body holds tension on behalf of people who do not even know you are carrying it.",
+    "watchPoints": [
+      "Neck and shoulder tension from carrying others' burdens",
+      "Throat or thyroid sensitivity when your own needs go unspoken",
+      "Emotional eating or fatigue from over-giving"
+    ],
+    "seasonalNote": "Spring fills you with the urge to nurture and beautify everything around you. Pour some of that care inward — a body that gives all season needs to be replenished, not just emptied, as the warmth builds."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Warm, nourishing comfort foods (stews, roots)", "reason": "Grounding meals that feed an earth-element body" },
+      { "name": "Sea vegetables and iodine sources", "reason": "Traditionally support thyroid and throat health" },
+      { "name": "Berries and beautiful, colorful plates", "reason": "A Venus-ruled body thrives on beauty and antioxidants" }
+    ],
+    "herbs": [
+      { "name": "Rose tea", "reason": "Heart-opening, gentle herb suited to a Venus nature" },
+      { "name": "Throat-soothing herbal blends (licorice, slippery elm)", "reason": "Traditionally calm the Taurus throat" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is receiving — deliberately letting yourself be cared for as well as you care for others. The same comfort you create for everyone else, you must create for yourself, without guilt.",
+    "habits": [
+      "Schedule one act of self-nurture daily, treated as seriously as caring for others",
+      "Practice saying 'no' and 'I need' out loud to ease throat tension",
+      "Gentle neck and shoulder stretches to release carried burdens",
+      "Surround yourself with beauty — flowers, soft textures, music"
+    ],
+    "stressManagement": "You discharge stress through comfort, beauty, and physical affection — but make sure you are receiving it, not only providing it. Rose and Geranium aromatherapy are said to open the heart and soothe a caregiver's nervous system back into balance."
+  },
+  "famousPeople": [
+    "Miranda Kerr (Australian model)",
+    "Carmen Electra (American actress)",
+    "Luther Vandross (American singer)",
+    "Joey Lawrence (American actor)",
+    "Shemar Moore (American actor)",
+    "Ryan O'Neal (American actor)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Build Sanctuary and Belong Inside It",
+    "description": "The April 20th soul carries a contract of love: to create homes, harmony, and havens where people feel safe, seen, and cared for. In a harsh and hurried world, you are here to be a source of steadiness and warmth — the one who makes a place feel like home. But your deeper mission is to learn that you are not only the builder of the sanctuary; you belong inside it too. When you stop earning your worth through endless giving and start receiving love as freely as you offer it, you become a living example of love that flows in both directions.",
+    "sacredGift": "The Gift of Devoted Sanctuary",
+    "shadowWork": "Learning that you do not have to earn love by giving until you are empty. You are worthy of care simply because you exist."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Home and Heart",
+    "overallTheme": "This year centers on love, home, and the relationships that matter most. Something in your domestic or emotional world deepens or restructures — a home, a family bond, a partnership. The universe rewards devotion but asks you to include yourself in the circle of care. This is the year to build a sanctuary that holds you too.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Tend Your Roots", "guidance": "Strengthen home and close bonds. Repair what needs care." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Open to Receiving", "guidance": "Practice accepting help and love. Let others care for you for once." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Harmonize Relationships", "guidance": "Heal an imbalance where you give more than you receive." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Settle Into Sanctuary", "guidance": "Enjoy the home and harmony you have built. Rest inside it." }
+    ],
+    "warningWindow": "Mid-September: you may over-give to someone who keeps taking. Notice the imbalance and lovingly set a boundary before resentment grows.",
+    "openingWindow": "Early May: a relationship or home matter blossoms. Lean into the warmth arriving."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your nurturing heart aligns with the universe's flow — moments to love, settle, and receive.",
+    "dates": [
+      { "date": "April 20 (Solar Return)", "energy": "Sanctuary Day", "action": "Do something purely for your own comfort. Receiving is your birthday gift this year." },
+      { "date": "June 16", "energy": "Heart Day", "action": "Deepen a bond that matters. Speak the love you usually only show." },
+      { "date": "September 23", "energy": "Balance Day", "action": "Rebalance a one-sided relationship. Ask for what you need." },
+      { "date": "December 21", "energy": "Hearth Day", "action": "Gather your people and rest in belonging. Let yourself be held." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The One Who Insists on Caring for You Too",
+    "description": "Your divine counterpart is not someone who simply receives your endless devotion — they are someone determined to nurture you back, who makes the sanctuary a place you both rest in, not one you maintain alone.",
+    "qualities": [
+      "Affectionate and emotionally present, not distant",
+      "Reliable — they show up in the ordinary days",
+      "Insistent on caring for you, not only being cared for",
+      "Values home and devotion as deeply as you do"
+    ],
+    "meetingSign": "You will likely meet in a warm, everyday setting — through community, friends, or a shared act of care rather than a dramatic spark. The connection will feel comfortable and safe from the start, like a homecoming.",
+    "timing": "Most likely once you have learned to receive — when you stop attracting people who only take and start valuing those who give back."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers being a keeper of home and hearth — a healer who tended the sick, a parent of many, a heart around which a community gathered. You knew the quiet power of creating a place where others could be safe. In this life, kitchens, gardens, and the people you love feel like the center of everything; the urge to nurture rises in you without explanation. That is not mere sentimentality. That is memory.",
+    "unfinishedLesson": "In a past incarnation, you gave everything to everyone and kept nothing for yourself — and you left that life depleted and unseen. This life is the one where you learn that your own care belongs in the circle, and that being held is not a weakness but a completion."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Heart-and-Hearth Ritual",
+    "description": "A potent ritual aligned with Taurus-6 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a rose or green candle in the heart of your home.",
+      "Place something beautiful and something nourishing before you.",
+      "Put both hands on your own heart and breathe into it six times.",
+      "Write one way you will let yourself be cared for this cycle.",
+      "Then write one boundary that protects your well from running dry.",
+      "Say aloud: 'I give from fullness, and I am worthy of receiving.'",
+      "Take one concrete act of self-nurture before the day ends."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I belong inside the sanctuary I build." },
+      { "day": "Tuesday", "affirmation": "Receiving care is not selfish; it keeps my well full." },
+      { "day": "Wednesday", "affirmation": "I give from fullness, never from emptiness." },
+      { "day": "Thursday", "affirmation": "My needs matter as much as everyone else's." },
+      { "day": "Friday", "affirmation": "I am worthy of love simply because I exist." },
+      { "day": "Saturday", "affirmation": "I let myself be held as warmly as I hold others." },
+      { "day": "Sunday", "affirmation": "I create homes where love flows in both directions." }
+    ]
+  }
+}

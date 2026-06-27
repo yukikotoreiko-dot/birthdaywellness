@@ -1,0 +1,152 @@
+---
+import PinLayout from '../../../layouts/PinLayout.astro';
+
+interface ZodiacPin {
+  name: string;
+  symbol: string;
+  dateRange: string;
+  element: string;
+  ruler: string;
+  tagline: string;
+  url: string;
+}
+
+export async function getStaticPaths() {
+  const pins: Record<string, ZodiacPin> = {
+    aries:       { name: 'Aries',       symbol: '♈', dateRange: 'March 21 — April 19',       element: 'Fire',  ruler: 'Mars',    tagline: 'Born to Begin',          url: '/en/april/15/' },
+    taurus:      { name: 'Taurus',      symbol: '♉', dateRange: 'April 20 — May 20',         element: 'Earth', ruler: 'Venus',   tagline: 'Sacred Embodiment',      url: '/en/may/15/' },
+    gemini:      { name: 'Gemini',      symbol: '♊', dateRange: 'May 21 — June 21',          element: 'Air',   ruler: 'Mercury', tagline: 'Voice of Connection',    url: '/en/june/15/' },
+    cancer:      { name: 'Cancer',      symbol: '♋', dateRange: 'June 22 — July 22',         element: 'Water', ruler: 'Moon',    tagline: 'Sacred Refuge',          url: '/en/july/15/' },
+    leo:         { name: 'Leo',         symbol: '♌', dateRange: 'July 23 — August 22',       element: 'Fire',  ruler: 'Sun',     tagline: 'Born to Shine',          url: '/en/august/15/' },
+    virgo:       { name: 'Virgo',       symbol: '♍', dateRange: 'August 23 — September 22',  element: 'Earth', ruler: 'Mercury', tagline: 'The Devoted Artisan',    url: '/en/september/15/' },
+    libra:       { name: 'Libra',       symbol: '♎', dateRange: 'September 23 — October 23', element: 'Air',   ruler: 'Venus',   tagline: 'Beauty as Truth',        url: '/en/october/15/' },
+    scorpio:     { name: 'Scorpio',     symbol: '♏', dateRange: 'October 24 — November 22',  element: 'Water', ruler: 'Pluto',   tagline: 'Sovereign Alchemy',      url: '/en/november/15/' },
+    sagittarius: { name: 'Sagittarius', symbol: '♐', dateRange: 'November 23 — December 21', element: 'Fire',  ruler: 'Jupiter', tagline: 'Visionary Pilgrim',      url: '/en/november/25/' },
+    capricorn:   { name: 'Capricorn',   symbol: '♑', dateRange: 'December 22 — January 19',  element: 'Earth', ruler: 'Saturn',  tagline: 'The Quiet Sage',         url: '/en/january/15/' },
+    aquarius:    { name: 'Aquarius',    symbol: '♒', dateRange: 'January 20 — February 18',  element: 'Air',   ruler: 'Uranus',  tagline: 'Visionary Engineer',     url: '/en/february/15/' },
+    pisces:      { name: 'Pisces',      symbol: '♓', dateRange: 'February 19 — March 20',    element: 'Water', ruler: 'Neptune', tagline: 'Compassionate Healer',   url: '/en/march/15/' },
+  };
+  return Object.entries(pins).map(([key, info]) => ({
+    params: { zodiac: key },
+    props: { info },
+  }));
+}
+
+const { info } = Astro.props as { info: ZodiacPin };
+---
+
+<PinLayout title={`${info.name} Soul Reading - Pinterest Pin v2`}>
+  <article
+    style="width: 1000px; height: 1500px; position: relative; overflow: hidden; background: radial-gradient(ellipse at 50% 36%, #3d2a6e 0%, #281552 38%, #170d33 68%, #0a0618 100%); box-shadow: 0 30px 80px rgba(0,0,0,0.35);"
+  >
+    <!-- 装飾フレーム（二重ボーダー） -->
+    <div style="position: absolute; inset: 36px; border: 2px solid rgba(251,191,36,0.55); border-radius: 4px;"></div>
+    <div style="position: absolute; inset: 48px; border: 1px solid rgba(251,191,36,0.28); border-radius: 2px;"></div>
+
+    <!-- コーナー装飾 -->
+    <div style="position: absolute; top: 30px; left: 30px; color: #fbbf24; font-size: 26px; opacity: 0.8;">✦</div>
+    <div style="position: absolute; top: 30px; right: 30px; color: #fbbf24; font-size: 26px; opacity: 0.8;">✦</div>
+    <div style="position: absolute; bottom: 30px; left: 30px; color: #fbbf24; font-size: 26px; opacity: 0.8;">✦</div>
+    <div style="position: absolute; bottom: 30px; right: 30px; color: #fbbf24; font-size: 26px; opacity: 0.8;">✦</div>
+
+    <!-- 上部：エレメント／支配星 -->
+    <div style="position: absolute; top: 130px; left: 0; right: 0; text-align: center;">
+      <p style="font-family: 'Cinzel', serif; font-size: 17px; letter-spacing: 0.42em; color: #fbbf24; margin: 0; text-transform: uppercase;">
+        {info.element} &nbsp;·&nbsp; Ruled by {info.ruler}
+      </p>
+    </div>
+
+    <!-- 星座名＋日付 -->
+    <div style="position: absolute; top: 190px; left: 0; right: 0; text-align: center;">
+      <h2 style="font-family: 'Cinzel', 'Playfair Display', serif; font-size: 60px; font-weight: 600; letter-spacing: 0.12em; color: #ffffff; margin: 0; text-transform: uppercase; text-shadow: 0 0 26px rgba(251,191,36,0.25);">
+        {info.name}
+      </h2>
+      <p style="font-family: 'Cormorant Garamond', serif; font-size: 23px; letter-spacing: 0.2em; color: rgba(255,255,255,0.8); margin: 14px 0 0;">
+        {info.dateRange}
+      </p>
+    </div>
+
+    <!-- 区切り装飾 -->
+    <div style="position: absolute; top: 360px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 16px;">
+      <span style="display: block; width: 90px; height: 1px; background: linear-gradient(90deg, transparent, rgba(251,191,36,0.7));"></span>
+      <span style="color: #fbbf24; font-size: 18px;">✧</span>
+      <span style="display: block; width: 90px; height: 1px; background: linear-gradient(90deg, rgba(251,191,36,0.7), transparent);"></span>
+    </div>
+
+    <!-- メダリオン（星座シンボル＋放射光） -->
+    <div style="position: absolute; top: 430px; left: 50%; transform: translateX(-50%); width: 360px; height: 360px;">
+      <svg width="360" height="360" viewBox="0 0 360 360">
+        <defs>
+          <radialGradient id="seal" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="rgba(251,191,36,0.22)"/>
+            <stop offset="60%" stop-color="rgba(251,191,36,0.06)"/>
+            <stop offset="100%" stop-color="rgba(251,191,36,0)"/>
+          </radialGradient>
+        </defs>
+        <circle cx="180" cy="180" r="170" fill="url(#seal)"/>
+        <!-- 放射状の光線 -->
+        <g stroke="rgba(251,191,36,0.45)" stroke-width="1.5">
+          <line x1="180" y1="22" x2="180" y2="52"/>
+          <line x1="180" y1="308" x2="180" y2="338"/>
+          <line x1="22" y1="180" x2="52" y2="180"/>
+          <line x1="308" y1="180" x2="338" y2="180"/>
+          <line x1="68" y1="68" x2="90" y2="90"/>
+          <line x1="292" y1="68" x2="270" y2="90"/>
+          <line x1="68" y1="292" x2="90" y2="270"/>
+          <line x1="292" y1="292" x2="270" y2="270"/>
+        </g>
+        <!-- 二重リング -->
+        <circle cx="180" cy="180" r="128" fill="none" stroke="rgba(251,191,36,0.55)" stroke-width="2"/>
+        <circle cx="180" cy="180" r="116" fill="none" stroke="rgba(251,191,36,0.3)" stroke-width="1"/>
+      </svg>
+      <!-- 星座グリフ（中央） -->
+      <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;">
+        <span style="font-family: 'Noto Sans Symbols 2', 'Apple Symbols', serif; font-size: 150px; color: #fbbf24; line-height: 1; text-shadow: 0 0 40px rgba(251,191,36,0.7), 0 0 80px rgba(251,191,36,0.35);">
+          {info.symbol}
+        </span>
+      </div>
+    </div>
+
+    <!-- ヒーロー：アーキタイプ称号 -->
+    <div style="position: absolute; top: 840px; left: 0; right: 0; text-align: center;">
+      <p style="font-family: 'Cinzel', serif; font-size: 15px; letter-spacing: 0.4em; color: rgba(255,255,255,0.6); margin: 0 0 18px; text-transform: uppercase;">
+        Your Soul Archetype
+      </p>
+      <h1 style="font-family: 'Playfair Display', 'Cormorant Garamond', serif; font-style: italic; font-size: 82px; font-weight: 600; color: #f7e7c5; margin: 0; line-height: 1.05; padding: 0 60px; text-shadow: 0 0 34px rgba(251,191,36,0.3);">
+        {info.tagline}
+      </h1>
+    </div>
+
+    <!-- 誘導文 -->
+    <div style="position: absolute; top: 1040px; left: 0; right: 0; text-align: center;">
+      <p style="font-family: 'Cormorant Garamond', serif; font-size: 27px; color: rgba(255,255,255,0.82); margin: 0 auto; max-width: 680px; line-height: 1.4;">
+        Your birthday holds a sacred mission,<br/>a soulmate blueprint &amp; a past-life story.
+      </p>
+    </div>
+
+    <!-- CTAボックス -->
+    <div style="position: absolute; bottom: 210px; left: 50%; transform: translateX(-50%); text-align: center;">
+      <div style="display: inline-block; padding: 19px 52px; background: linear-gradient(135deg, rgba(251,191,36,0.96) 0%, rgba(217,119,6,0.96) 100%); border-radius: 100px; box-shadow: 0 12px 32px rgba(0,0,0,0.35);">
+        <p style="font-family: 'Cinzel', serif; font-size: 23px; letter-spacing: 0.22em; color: #2d1b4e; margin: 0; font-weight: 600;">
+          UNLOCK YOUR SOUL READING →
+        </p>
+      </div>
+      <p style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 21px; color: rgba(255,255,255,0.82); margin: 24px 0 0;">
+        Free to read · Premium Reading $2.99
+      </p>
+    </div>
+
+    <!-- ブランド名（最下部） -->
+    <div style="position: absolute; bottom: 70px; left: 0; right: 0; text-align: center;">
+      <p style="font-family: 'Cinzel', serif; font-size: 14px; letter-spacing: 0.48em; color: rgba(255,255,255,0.7); margin: 0; text-transform: uppercase;">
+        Birthday Wellness · birthdaywellness.com
+      </p>
+    </div>
+
+    <!-- 散布星 -->
+    <div style="position: absolute; top: 470px; left: 90px; color: rgba(255,255,255,0.55); font-size: 14px;">✦</div>
+    <div style="position: absolute; top: 560px; right: 95px; color: rgba(251,191,36,0.6); font-size: 17px;">✧</div>
+    <div style="position: absolute; top: 760px; left: 120px; color: rgba(251,191,36,0.55); font-size: 15px;">✦</div>
+    <div style="position: absolute; top: 720px; right: 130px; color: rgba(255,255,255,0.5); font-size: 12px;">·</div>
+  </article>
+</PinLayout>

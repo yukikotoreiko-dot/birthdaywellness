@@ -11,6 +11,38 @@ const monthSlugs = [
   'july', 'august', 'september', 'october', 'november', 'december'
 ];
 
+// 星座シンボル・要素・支配星マッピング
+const zodiacData: Record<string, { symbol: string; element: string; ruler: string; mythCreature: string }> = {
+  Aries:       { symbol: '♈', element: 'Fire',  ruler: 'Mars',    mythCreature: 'The Ram' },
+  Taurus:      { symbol: '♉', element: 'Earth', ruler: 'Venus',   mythCreature: 'The Bull' },
+  Gemini:      { symbol: '♊', element: 'Air',   ruler: 'Mercury', mythCreature: 'The Twins' },
+  Cancer:      { symbol: '♋', element: 'Water', ruler: 'Moon',    mythCreature: 'The Crab' },
+  Leo:         { symbol: '♌', element: 'Fire',  ruler: 'Sun',     mythCreature: 'The Lion' },
+  Virgo:       { symbol: '♍', element: 'Earth', ruler: 'Mercury', mythCreature: 'The Maiden' },
+  Libra:       { symbol: '♎', element: 'Air',   ruler: 'Venus',   mythCreature: 'The Scales' },
+  Scorpio:     { symbol: '♏', element: 'Water', ruler: 'Pluto',   mythCreature: 'The Scorpion' },
+  Sagittarius: { symbol: '♐', element: 'Fire',  ruler: 'Jupiter', mythCreature: 'The Archer' },
+  Capricorn:   { symbol: '♑', element: 'Earth', ruler: 'Saturn',  mythCreature: 'The Sea-Goat' },
+  Aquarius:    { symbol: '♒', element: 'Air',   ruler: 'Uranus',  mythCreature: 'The Water Bearer' },
+  Pisces:      { symbol: '♓', element: 'Water', ruler: 'Neptune', mythCreature: 'The Fishes' },
+};
+
+// 星座ごとのGumroad商品URLマッピング（全12星座対応・2026-06-10完了）
+const zodiacProductUrl: Record<string, string> = {
+  Aries:       'https://yukikoto7.gumroad.com/l/aries',
+  Taurus:      'https://yukikoto7.gumroad.com/l/taurus',
+  Gemini:      'https://yukikoto7.gumroad.com/l/gemini',
+  Cancer:      'https://yukikoto7.gumroad.com/l/cancer',
+  Leo:         'https://yukikoto7.gumroad.com/l/leo',
+  Virgo:       'https://yukikoto7.gumroad.com/l/virgo',
+  Libra:       'https://yukikoto7.gumroad.com/l/libra',
+  Scorpio:     'https://yukikoto7.gumroad.com/l/scorpio',
+  Sagittarius: 'https://yukikoto7.gumroad.com/l/sagittarius',
+  Capricorn:   'https://yukikoto7.gumroad.com/l/capricorn',
+  Aquarius:    'https://yukikoto7.gumroad.com/l/aquarius',
+  Pisces:      'https://yukikoto7.gumroad.com/l/pisces',
+};
+
 export async function getStaticPaths() {
   const dataModules = import.meta.glob('../../../data/birthdays/en/*.json', { eager: true });
   const paths: Array<{ params: { month: string; day: string }; props: { data: any } }> = [];
@@ -45,25 +77,88 @@ function ordinal(n: number): string {
   return n + (s[(v - 20) % 10] || s[v] || s[0]);
 }
 
+// プレミアム全文はHTMLに含めず、冒頭だけのティザーを生成（購入ロック）
+function teaser(text: string | undefined, n = 110): string {
+  if (!text) return '';
+  return text.length <= n ? text : text.slice(0, n).trimEnd() + '…';
+}
+
 const title = `Born on ${monthEn} ${ordinal(data.day)} – Personality, Wellness & Compatibility | Birthday Wellness`;
 const description = `Discover the personality, love compatibility, ideal careers, lucky items, and pharmacist-approved body constitution, lucky foods, and self-care tips for those born on ${monthEn} ${ordinal(data.day)}.`;
 const currentPath = `/${monthSlug}/${data.day}/`;
+const zodiacInfo = zodiacData[data.zodiac] ?? { symbol: '✦', element: '—', ruler: '—', mythCreature: '—' };
+const productUrl = zodiacProductUrl[data.zodiac] ?? null;
+
+// ロック表示用ティザー（ラベル＋タイトル＋冒頭チラ見せのみ。全文は購入者向けPDFで提供）
+const premiumTeasers = data.soulMission
+  ? [
+      { label: 'YOUR SACRED MISSION', icon: '✦', title: data.soulMission.title, snippet: teaser(data.soulMission.description) },
+      data.yearAhead && { label: 'COSMIC FORECAST', icon: '⟡', title: data.yearAhead.title, snippet: teaser(data.yearAhead.overallTheme) },
+      data.powerDays && { label: 'PERSONAL ALMANAC', icon: '⚡', title: data.powerDays.title, snippet: teaser(data.powerDays.description) },
+      data.soulmateBlueprint && { label: 'DIVINE COUNTERPART', icon: '♡', title: data.soulmateBlueprint.title, snippet: teaser(data.soulmateBlueprint.description) },
+      data.pastLifeWhisper && { label: 'ANCIENT MEMORY', icon: '🕯', title: data.pastLifeWhisper.title, snippet: teaser(data.pastLifeWhisper.story) },
+      data.manifestationRitual && { label: 'SACRED PRACTICE', icon: '🌙', title: data.manifestationRitual.title, snippet: teaser(data.manifestationRitual.description) },
+      data.affirmations && { label: 'DAILY INVOCATION', icon: '🌅', title: data.affirmations.title, snippet: teaser(data.affirmations.description) },
+    ].filter(Boolean)
+  : [];
 ---
 
 <BaseLayout title={title} description={description} lang="en" currentPath={currentPath}>
   <article class="space-y-10">
-    <header class="text-center space-y-3 pb-6 border-b border-purple-200">
-      <p class="text-sm text-purple-600 font-medium tracking-wide">BIRTHDAY WELLNESS</p>
-      <h1 class="text-3xl md:text-4xl font-bold text-purple-900">
+    <header class="text-center space-y-4 pb-8 border-b border-purple-200 relative">
+      <p class="text-xs tracking-[0.4em] text-purple-600 font-display">BIRTHDAY WELLNESS</p>
+
+      <!-- 星座シンボル装飾アートワーク -->
+      <div class="relative inline-block">
+        <!-- 後光円 -->
+        <svg class="absolute inset-0 w-full h-full -z-10 opacity-30" viewBox="0 0 200 200">
+          <defs>
+            <radialGradient id="halo">
+              <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/>
+              <stop offset="60%" stop-color="#a78bfa" stop-opacity="0.2"/>
+              <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <circle cx="100" cy="100" r="90" fill="url(#halo)"/>
+        </svg>
+        <!-- 周囲の星々 -->
+        <svg class="absolute inset-0 w-full h-full -z-10" viewBox="0 0 200 200" style="filter:drop-shadow(0 0 4px rgba(251,191,36,0.6));">
+          <g fill="#fbbf24">
+            <circle cx="30" cy="40" r="1.5"/>
+            <circle cx="170" cy="60" r="1"/>
+            <circle cx="50" cy="160" r="1.2"/>
+            <circle cx="160" cy="170" r="1.5"/>
+            <circle cx="100" cy="20" r="1"/>
+            <circle cx="20" cy="100" r="1"/>
+            <circle cx="180" cy="120" r="1.3"/>
+            <text x="40" y="60" font-size="10" opacity="0.6">✦</text>
+            <text x="155" y="40" font-size="8" opacity="0.5">✧</text>
+            <text x="170" y="150" font-size="10" opacity="0.6">✦</text>
+            <text x="25" y="170" font-size="8" opacity="0.5">✧</text>
+          </g>
+        </svg>
+        <!-- メインの星座シンボル -->
+        <div class="relative py-6 px-12">
+          <span class="zodiac-symbol block text-7xl md:text-8xl">
+            {zodiacInfo.symbol}
+          </span>
+        </div>
+      </div>
+
+      <h1 class="font-serif-luxury text-3xl md:text-4xl text-purple-900 italic">
         Born on {monthEn} {ordinal(data.day)}
       </h1>
-      <div class="flex flex-wrap justify-center gap-2 text-sm">
-        <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full">Zodiac: {data.zodiac}</span>
-        <span class="px-3 py-1 bg-pink-100 text-pink-700 rounded-full">Life Path: {data.lifePathNumber}</span>
+
+      <div class="flex flex-wrap justify-center gap-2 text-xs font-display tracking-widest pt-2">
+        <span class="px-4 py-1.5 bg-purple-50 border border-purple-200 text-purple-700 rounded-full">★ {data.zodiac} · {zodiacInfo.mythCreature}</span>
+        <span class="px-4 py-1.5 bg-pink-50 border border-pink-200 text-pink-700 rounded-full">◆ Life Path {data.lifePathNumber}</span>
       </div>
+      <p class="text-[10px] tracking-[0.3em] text-purple-400 pt-1">
+        Element: {zodiacInfo.element} · Ruler: {zodiacInfo.ruler}
+      </p>
     </header>
 
-    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-4">
+    <section class="bg-white/75 backdrop-blur-sm rounded-2xl p-6 shadow-sm space-y-4">
       <h2 class="text-xl font-bold text-purple-900 flex items-center gap-2">
         <span>🌟</span> Personality Overview
       </h2>
@@ -93,14 +188,14 @@ const currentPath = `/${monthSlug}/${data.day}/`;
       </p>
     </section>
 
-    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+    <section class="bg-white/75 backdrop-blur-sm rounded-2xl p-6 shadow-sm space-y-3">
       <h2 class="text-xl font-bold text-pink-900 flex items-center gap-2">
         <span>💖</span> Love & Relationships
       </h2>
       <p class="leading-relaxed">{data.love}</p>
     </section>
 
-    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+    <section class="bg-white/75 backdrop-blur-sm rounded-2xl p-6 shadow-sm space-y-3">
       <h2 class="text-xl font-bold text-blue-900 flex items-center gap-2">
         <span>💼</span> Career & Work
       </h2>
@@ -113,7 +208,7 @@ const currentPath = `/${monthSlug}/${data.day}/`;
       </div>
     </section>
 
-    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-4">
+    <section class="bg-white/75 backdrop-blur-sm rounded-2xl p-6 shadow-sm space-y-4">
       <h2 class="text-xl font-bold text-amber-900 flex items-center gap-2">
         <span>🤝</span> Compatibility Matches
       </h2>
@@ -139,7 +234,7 @@ const currentPath = `/${monthSlug}/${data.day}/`;
       </div>
     </section>
 
-    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+    <section class="bg-white/75 backdrop-blur-sm rounded-2xl p-6 shadow-sm space-y-3">
       <h2 class="text-xl font-bold text-amber-900 flex items-center gap-2">
         <span>🎁</span> Lucky Items
       </h2>
@@ -217,7 +312,7 @@ const currentPath = `/${monthSlug}/${data.day}/`;
       </section>
     </div>
 
-    <section class="bg-white/70 rounded-2xl p-6 shadow-sm space-y-3">
+    <section class="bg-white/75 backdrop-blur-sm rounded-2xl p-6 shadow-sm space-y-3">
       <h2 class="text-xl font-bold text-purple-900 flex items-center gap-2">
         <span>📚</span> Famous People Born on {monthEn} {ordinal(data.day)}
       </h2>
@@ -225,6 +320,176 @@ const currentPath = `/${monthSlug}/${data.day}/`;
         {data.famousPeople.map((p: string) => <li>• {p}</li>)}
       </ul>
     </section>
+
+    {data.soulMission && productUrl && (
+      <div class="rounded-3xl p-8 md:p-10 text-center space-y-5 shadow-xl" style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #f3e8ff 100%); border: 2px solid #f9a8d4;">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/70 rounded-full">
+          <span class="text-pink-600">✦</span>
+          <p class="text-[10px] font-display tracking-[0.35em] text-pink-700 font-bold">PREMIUM SOUL READING</p>
+          <span class="text-pink-600">✦</span>
+        </div>
+        <h2 class="font-serif-luxury text-3xl md:text-4xl text-purple-900 italic leading-tight">
+          Unlock Your Complete<br/>{data.zodiac} Soul Reading
+        </h2>
+        <p class="font-serif-body text-base md:text-lg text-purple-800/80 leading-relaxed max-w-xl mx-auto">
+          Get instant access to all 7 premium sections including your sacred mission, year ahead forecast, power days, soulmate blueprint, past-life whisper, manifestation ritual, and 7-day affirmations.
+        </p>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 max-w-2xl mx-auto text-xs text-purple-700">
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Sacred Mission</div>
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Year Ahead</div>
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Power Days</div>
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Soulmate Blueprint</div>
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Past Life</div>
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Sacred Ritual</div>
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Affirmations</div>
+          <div class="bg-white/60 rounded-lg py-2 px-2 font-serif-body">✦ Lifetime Access</div>
+        </div>
+
+        <a
+          href={productUrl}
+          target="_blank"
+          rel="noopener"
+          class="inline-block px-10 py-4 text-white font-bold rounded-full text-lg shadow-lg transition-all hover:shadow-2xl hover:-translate-y-0.5"
+          style="background: linear-gradient(135deg, #ec4899 0%, #a855f7 100%);"
+        >
+          ✨ Unlock Full Reading — $2.99
+        </a>
+
+        <p class="text-xs text-purple-600 flex items-center justify-center gap-3 flex-wrap">
+          <span>⚡ Instant access</span>
+          <span class="text-pink-400">·</span>
+          <span>🛡 30-day money-back guarantee</span>
+          <span class="text-pink-400">·</span>
+          <span>🔒 Secure checkout via Gumroad</span>
+        </p>
+      </div>
+    )}
+
+    {data.soulMission && (
+      <div class="bg-premium-night text-white rounded-3xl p-8 md:p-12 space-y-10 shadow-2xl relative overflow-hidden">
+        <div class="relative z-10 space-y-10">
+
+          <!-- ヘッダー：神秘的アートワーク -->
+          <div class="text-center space-y-6 relative">
+            <!-- 巨大な星座シンボル（ゴールドアートワーク） -->
+            <div class="relative inline-block">
+              <svg class="absolute inset-0 w-full h-full" viewBox="0 0 300 300" style="filter: blur(20px); opacity: 0.5;">
+                <defs>
+                  <radialGradient id="premium-halo">
+                    <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.8"/>
+                    <stop offset="50%" stop-color="#d4af37" stop-opacity="0.4"/>
+                    <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+                  </radialGradient>
+                </defs>
+                <circle cx="150" cy="150" r="120" fill="url(#premium-halo)"/>
+              </svg>
+              <!-- 神聖幾何学：花の種（Seed of Life） -->
+              <svg class="absolute inset-0 w-full h-full opacity-20" viewBox="0 0 300 300" style="filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.5));">
+                <g fill="none" stroke="#fbbf24" stroke-width="0.5">
+                  <circle cx="150" cy="150" r="40"/>
+                  <circle cx="150" cy="110" r="40"/>
+                  <circle cx="150" cy="190" r="40"/>
+                  <circle cx="115" cy="130" r="40"/>
+                  <circle cx="185" cy="130" r="40"/>
+                  <circle cx="115" cy="170" r="40"/>
+                  <circle cx="185" cy="170" r="40"/>
+                </g>
+              </svg>
+              <!-- 12星座シンボル -->
+              <div class="relative py-12 px-16">
+                <span class="zodiac-symbol block text-[8rem] md:text-[10rem]" style="text-shadow: 0 0 30px rgba(251,191,36,0.7), 0 0 60px rgba(251,191,36,0.5), 0 0 100px rgba(251,191,36,0.3);">
+                  {zodiacInfo.symbol}
+                </span>
+              </div>
+              <!-- 装飾的アングル -->
+              <svg class="absolute top-0 left-0 w-12 h-12 text-amber-300/60" viewBox="0 0 40 40" fill="currentColor">
+                <path d="M0 0 L20 0 L20 2 L2 2 L2 20 L0 20 Z"/>
+                <text x="22" y="18" font-size="14" font-family="Cinzel">✦</text>
+              </svg>
+              <svg class="absolute top-0 right-0 w-12 h-12 text-amber-300/60" viewBox="0 0 40 40" fill="currentColor">
+                <path d="M40 0 L20 0 L20 2 L38 2 L38 20 L40 20 Z"/>
+                <text x="6" y="18" font-size="14" font-family="Cinzel">✦</text>
+              </svg>
+              <svg class="absolute bottom-0 left-0 w-12 h-12 text-amber-300/60" viewBox="0 0 40 40" fill="currentColor">
+                <path d="M0 40 L20 40 L20 38 L2 38 L2 20 L0 20 Z"/>
+                <text x="22" y="32" font-size="14" font-family="Cinzel">✦</text>
+              </svg>
+              <svg class="absolute bottom-0 right-0 w-12 h-12 text-amber-300/60" viewBox="0 0 40 40" fill="currentColor">
+                <path d="M40 40 L20 40 L20 38 L38 38 L38 20 L40 20 Z"/>
+                <text x="6" y="32" font-size="14" font-family="Cinzel">✦</text>
+              </svg>
+            </div>
+
+            <div class="inline-flex items-center gap-4 text-amber-300 relative">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" opacity="0.8">
+                <path d="M12 0 L13 11 L24 12 L13 13 L12 24 L11 13 L0 12 L11 11 Z"/>
+              </svg>
+              <p class="text-[10px] font-display tracking-[0.4em] text-champagne">PREMIUM SOUL READING</p>
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" opacity="0.8">
+                <path d="M12 0 L13 11 L24 12 L13 13 L12 24 L11 13 L0 12 L11 11 Z"/>
+              </svg>
+            </div>
+            <p class="text-amber-100/60 text-sm italic font-serif-body">
+              Channeled exclusively for your cosmic signature
+            </p>
+            <div class="divider-ornate"><span>{zodiacInfo.symbol}</span></div>
+          </div>
+
+          <!-- ロック版ティザー：全文はHTMLに含めない（購入者にはPDFで提供） -->
+          <div class="space-y-4 max-w-2xl mx-auto">
+            {premiumTeasers.map((t: any) => (
+              <div class="card-gold rounded-2xl p-6 relative overflow-hidden">
+                <div class="flex items-center justify-between gap-3">
+                  <p class="text-[10px] font-display tracking-[0.3em] text-amber-300">{t.icon} {t.label}</p>
+                  <span class="text-amber-300/70 text-sm flex-shrink-0">🔒</span>
+                </div>
+                <h3 class="font-serif-luxury text-xl md:text-2xl text-champagne italic mt-2 leading-snug">
+                  {t.title}
+                </h3>
+                <div class="relative mt-2">
+                  <p class="font-serif-body text-base text-purple-100/80 leading-relaxed">
+                    {t.snippet}
+                  </p>
+                  <div class="absolute inset-x-0 bottom-0 h-10" style="background: linear-gradient(to bottom, transparent, rgba(20, 13, 45, 0.95));"></div>
+                </div>
+                <p class="text-[10px] font-display tracking-[0.25em] text-amber-300/60 mt-3">UNLOCK TO CONTINUE READING</p>
+              </div>
+            ))}
+          </div>
+
+          {productUrl && (
+            <div class="text-center space-y-4 pt-2">
+              <a
+                href={productUrl}
+                target="_blank"
+                rel="noopener"
+                class="inline-block px-10 py-4 text-white font-bold rounded-full text-lg shadow-lg transition-all hover:shadow-2xl hover:-translate-y-0.5"
+                style="background: linear-gradient(135deg, #ec4899 0%, #a855f7 100%);"
+              >
+                ✨ Unlock Full Reading — $2.99
+              </a>
+              <p class="text-xs text-amber-100/60 flex items-center justify-center gap-3 flex-wrap font-serif-body">
+                <span>📜 Delivered instantly as a beautifully designed PDF</span>
+                <span class="text-amber-300/40">·</span>
+                <span>🛡 30-day money-back guarantee</span>
+              </p>
+            </div>
+          )}
+
+          <!-- フッター -->
+          <div class="text-center pt-6 space-y-3">
+            <div class="divider-ornate"><span>✦</span></div>
+            <p class="font-serif-body text-sm text-amber-100/60 italic leading-relaxed max-w-md mx-auto">
+              Your complete Soul Reading awaits — channeled for your unique cosmic signature<br/>
+              and delivered instantly as a keepsake PDF.
+            </p>
+            <p class="text-[10px] font-display tracking-[0.4em] text-champagne pt-2">— BIRTHDAY WELLNESS —</p>
+          </div>
+
+        </div>
+      </div>
+    )}
 
     <nav class="text-center pt-6">
       <a href="/en/" class="inline-block px-5 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-full text-sm transition">

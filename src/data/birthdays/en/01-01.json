@@ -1,0 +1,84 @@
+{
+  "month": 1,
+  "day": 1,
+  "zodiac": "Capricorn",
+  "zodiacRange": "Dec 22 - Jan 19",
+  "lifePathNumber": 2,
+  "personality": {
+    "headline": "The Quiet Architect Who Builds a New Era",
+    "keywords": ["Responsible", "Harmonious", "Strategic"],
+    "description": "Born on January 1st, you carry the grounded responsibility of Capricorn fused with the empathic harmony of Life Path 2 — a rare combination that makes you a 'quiet leader.' Born at the very start of the year, you hold a deep, unspoken sense of mission to lead the way, yet you rarely push yourself to the front. Instead, you build things steadily, in tune with those around you. You favor logic over instinct, yet your sensitivity to others' emotions makes you an indispensable behind-the-scenes force in any team. Your life rewards long-term planning and patient foundation-building, leading to substantial achievements later in life.",
+    "strengths": ["Patience", "Compassion", "Strategic planning", "Integrity"],
+    "weaknesses": ["Overextending yourself", "Perfectionism", "Self-sacrifice tendency", "Suppressing emotions"],
+    "theme": "Your life theme is 'balancing responsibility with authenticity.' Because caring for others comes naturally, intentionally protecting time for yourself is the key to lasting happiness."
+  },
+  "love": "In love, you are the type who loves deeply and for the long term. You bloom not through whirlwind romance, but through gradually built trust. While passionate gestures aren't your style, you offer partners absolute loyalty and a sense of safety. Watch for the tendency to over-care for your partner while pushing your own feelings aside — this can lead to sudden emotional burnout. Marriage tends to work best after 30, once both you and your partner have built solid foundations. Your ideal partner is someone who can read the warmth you hold inside and put it into words you'd never say yourself.",
+  "career": {
+    "description": "You shine in roles that reward patience and long-term thinking over short-term flash. You often excel as a strategic right hand rather than a front-line leader, building the systems that allow organizations to thrive.",
+    "jobs": [
+      "Civil servant or public administrator",
+      "Management or financial consultant",
+      "Educator or researcher",
+      "Architect or urban planner",
+      "Project manager"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "May 10", "zodiac": "Taurus", "reason": "Deep alignment in core values" },
+      { "date": "September 15", "zodiac": "Virgo", "reason": "Shared practical sensibility" },
+      { "date": "July 7", "zodiac": "Cancer", "reason": "Mutual emotional understanding" }
+    ],
+    "challenging": [
+      { "date": "April 5", "zodiac": "Aries", "reason": "Mismatched pace causes exhaustion" },
+      { "date": "July 20", "zodiac": "Cancer", "reason": "Emotional temperature gap" },
+      { "date": "October 10", "zodiac": "Libra", "reason": "Different decision-making styles" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Deep Green", "Navy"],
+    "stones": ["Garnet", "Rose Quartz"],
+    "flower": "Sweet Pea",
+    "flowerMeaning": "New beginnings · Gentle memories",
+    "numbers": [2, 11],
+    "direction": "Northeast"
+  },
+  "constitution": {
+    "description": "In traditional astrology, Capricorn governs bones, joints, and teeth. As an earth-element sign, you tend toward 'cold and stagnation' patterns. Your habit of carrying responsibility alone often leads to chronic stiffness in the shoulders, neck, and lower back. As a winter-born, your metabolism runs on the conservative side, so balancing warming practices with gentle movement is a lifelong key.",
+    "watchPoints": [
+      "Coldness and stiffness in knees, lower back, and joints",
+      "Digestive sluggishness from internal cold",
+      "Jaw tension and teeth grinding from stress"
+    ],
+    "seasonalNote": "Between January and March especially, conscious warming matters. Morning warm water, belly warmers, and hot water bottles — small 'inside-out warming' rituals stabilize your year-round vitality."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Black sesame & black beans", "reason": "Mineral-rich foods said to support bones and blood" },
+      { "name": "Ginger & cinnamon", "reason": "Known to warm the body from within" },
+      { "name": "Root vegetables (burdock, lotus root)", "reason": "Fiber-rich support for digestive balance" }
+    ],
+    "herbs": [
+      { "name": "Rooibos tea", "reason": "Caffeine-free herb known for mineral support" },
+      { "name": "Ginger tea", "reason": "A classic warming companion" }
+    ]
+  },
+  "selfCare": {
+    "description": "Honoring the 'over-giving you' is your core self-care. Intentionally building 'do nothing' moments matters more for you than most.",
+    "habits": [
+      "Begin each day with warm water and slow breath",
+      "Weekly half-body bath (40°C / 20 min) to warm the pelvis",
+      "Phone off after 10 PM to rest eyes and mind",
+      "Monthly nature walks to recharge with earth energy"
+    ],
+    "stressManagement": "Since putting feelings into words doesn't come naturally, journaling becomes powerful for you. A private diary no one will read lets your truth out and lightens your heart. Aromatherapy with Geranium or Sandalwood is said to support emotional stability."
+  },
+  "famousPeople": [
+    "Mai Kuraki (Japanese musician)",
+    "Koichi Domoto (KinKi Kids · actor)",
+    "Naotaro Moriyama (Japanese singer-songwriter)",
+    "J.D. Salinger (American author of 'The Catcher in the Rye')",
+    "Werner Heisenberg (German physicist)",
+    "E.M. Forster (English author of 'A Room with a View')"
+  ]
+}

@@ -85,38 +85,38 @@ const description =
       </div>
     </section>
   </div>
+
+  <script is:inline>
+    const monthSlugs = [
+      'january', 'february', 'march', 'april', 'may', 'june',
+      'july', 'august', 'september', 'october', 'november', 'december'
+    ];
+
+    const form = document.getElementById('birthdayForm');
+    const errorEl = document.getElementById('formError');
+
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const month = parseInt(document.getElementById('month').value, 10);
+      const day = parseInt(document.getElementById('day').value, 10);
+
+      if (!month || !day) {
+        errorEl.textContent = 'Please select a month and day';
+        errorEl.classList.remove('hidden');
+        return;
+      }
+
+      const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+      if (day > daysInMonth[month - 1]) {
+        const monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][month - 1];
+        errorEl.textContent = `${monthName} only has ${daysInMonth[month - 1]} days`;
+        errorEl.classList.remove('hidden');
+        return;
+      }
+
+      errorEl.classList.add('hidden');
+      const slug = monthSlugs[month - 1];
+      window.location.href = `/en/${slug}/${day}/`;
+    });
+  </script>
 </BaseLayout>
-
-<script is:inline>
-  const monthSlugs = [
-    'january', 'february', 'march', 'april', 'may', 'june',
-    'july', 'august', 'september', 'october', 'november', 'december'
-  ];
-
-  const form = document.getElementById('birthdayForm');
-  const errorEl = document.getElementById('formError');
-
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const month = parseInt(document.getElementById('month').value, 10);
-    const day = parseInt(document.getElementById('day').value, 10);
-
-    if (!month || !day) {
-      errorEl.textContent = 'Please select a month and day';
-      errorEl.classList.remove('hidden');
-      return;
-    }
-
-    const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-    if (day > daysInMonth[month - 1]) {
-      const monthName = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][month - 1];
-      errorEl.textContent = `${monthName} only has ${daysInMonth[month - 1]} days`;
-      errorEl.classList.remove('hidden');
-      return;
-    }
-
-    errorEl.classList.add('hidden');
-    const slug = monthSlugs[month - 1];
-    window.location.href = `/en/${slug}/${day}/`;
-  });
-</script>

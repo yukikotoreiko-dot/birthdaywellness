@@ -1,0 +1,155 @@
+{
+  "month": 6,
+  "day": 15,
+  "zodiac": "Gemini",
+  "zodiacRange": "May 21 - Jun 21",
+  "lifePathNumber": 3,
+  "personality": {
+    "headline": "The Wordsmith Whose Voice Shifts the Weather of a Room",
+    "keywords": ["Expressive", "Curious", "Catalytic Charm"],
+    "description": "Born on June 15th, you arrived carrying the rare alchemy of Gemini's lightning-quick intelligence and Life Path 3's creative joy — a soul whose voice is your instrument and whose curiosity is your compass. You change the energy of any room within minutes, not through effort but through presence. Your mind moves like a hummingbird through ideas, gathering nectar from places others walk past. Beneath your bright surface lives an observer who reads people in seconds, with a hidden idealism and tender sensitivity. Your fundamental wish — to bring joy to others — opens doors for you that more strategic souls cannot find.",
+    "strengths": ["Communication mastery", "Adaptability", "Humor as medicine", "Cultural sensitivity"],
+    "weaknesses": ["Restlessness", "Mood fluctuations", "Difficulty going deep", "People-pleasing under pressure"],
+    "theme": "Your life theme is 'staying wide and luminous, while choosing one true thing.' Your gift for many interests is not a flaw — but when you find the path you can commit to, your radiance becomes legendary."
+  },
+  "love": "You fall for chemistry of voice and mind first. What hooks you is wit, value resonance, intellectual stimulation — looks come later. You heat up fast and cool down equally fast, so the peak often arrives at the very start. Longevity comes from learning to 'find play in the routine.' Practice sitting with silence — your partner's quiet often contains the most important information. Your ideal partner is someone calm whose ground does not absorb your fire but reflects it. Marriage tends to bloom from your late 20s through early 30s, in a partnership where your playfulness is celebrated, not contained.",
+  "career": {
+    "description": "You explode with potential in roles that use communication and creativity. Monotonous desk work or jobs requiring years of grit alone can drain you. You shine in environments allowing parallel projects, frequent novelty, and constant human contact.",
+    "jobs": [
+      "Writer · Copywriter · Editor",
+      "MC · Announcer · Voice actor",
+      "Teacher or language instructor",
+      "Marketer · PR specialist · Brand strategist",
+      "Interpreter, translator, or cultural bridge"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "March 22", "zodiac": "Aries", "reason": "Matching tempo and adventurous spirit" },
+      { "date": "October 15", "zodiac": "Libra", "reason": "Shared love of intellectual conversation and beauty" },
+      { "date": "January 25", "zodiac": "Aquarius", "reason": "Mutual respect for freedom and originality" }
+    ],
+    "challenging": [
+      { "date": "September 8", "zodiac": "Virgo", "reason": "Opposite approaches to details and structure" },
+      { "date": "February 28", "zodiac": "Pisces", "reason": "Mismatched emotional expression styles" },
+      { "date": "December 5", "zodiac": "Sagittarius", "reason": "Too alike — leadership clashes emerge" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Yellow", "Sky Blue"],
+    "stones": ["Pearl", "Moonstone"],
+    "flower": "Yellow Rose",
+    "flowerMeaning": "Friendship · Hope",
+    "numbers": [3, 15],
+    "direction": "West"
+  },
+  "constitution": {
+    "description": "Gemini governs the lungs, bronchi, nervous system, hands, and arms. As an air-element sign with Life Path 3's expressive output, you tend toward 'nervous-system overheating' — constant multitasking keeps your autonomic system in high gear, leading to shallow sleep and seasonal respiratory sensitivity.",
+    "watchPoints": [
+      "Shallow breathing — shoulder tension during stress",
+      "Insomnia or light sleep from information overload",
+      "Hand, wrist, and shoulder tension from screens and devices"
+    ],
+    "seasonalNote": "The early summer transition — humidity, pressure changes — is your most sensitive period. Deliberately creating 'deep breath time' is the key to year-round wellness."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "White wood ear & Asian pear", "reason": "Foods traditionally said to moisten the lungs" },
+      { "name": "Almonds & walnuts", "reason": "Nuts that support brain and nervous-system health" },
+      { "name": "Colorful vegetables (broccoli, bell pepper)", "reason": "Vitamin C-rich antioxidant support" }
+    ],
+    "herbs": [
+      { "name": "Peppermint tea", "reason": "Said to support smooth energetic flow" },
+      { "name": "Lavender tea", "reason": "Helps quiet an overactive mind" }
+    ]
+  },
+  "selfCare": {
+    "description": "Resting your 'overthinking brain' is your core self-care. Creating intentional 'silent time' is essential.",
+    "habits": [
+      "5-minute daily nose breathing (lengthen the exhale)",
+      "Weekly 'information detox' day (no social media or news)",
+      "Phone off 1 hour before bed, replaced with a paper book",
+      "Stretching to release shoulders, neck, and chest"
+    ],
+    "stressManagement": "'Talking' and 'writing' as output works best for you. Casual chats with trusted people, or pouring thoughts into a notebook, brings instant relief. Bergamot and Eucalyptus aromatherapy are said to help refresh emotional airflow."
+  },
+  "famousPeople": [
+    "Rie Miyazawa (Japanese actress)",
+    "Yu Aoi (Japanese actress)",
+    "Taichi Kokubun (TOKIO)",
+    "Komaki Kurihara (Japanese actress)",
+    "Helen Hunt (American actress)",
+    "Igor Stravinsky (Russian composer)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Reweave the World Through Story",
+    "description": "The June 15th soul carries a remarkable contract: to be the keeper of the spoken and written word — the one who connects what others have left disconnected through the alchemy of language. You are a translator across cultures, generations, and disciplines. The world is full of brilliant minds who cannot communicate, and brilliant ideas waiting for a voice. You are the bridge. When you speak or write, you do not just transmit — you reweave reality itself.",
+    "sacredGift": "The Gift of Bright Connection",
+    "shadowWork": "Learning that depth is not the enemy of lightness. You can be playful and profound in the same breath."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Creative Coherence",
+    "overallTheme": "This year asks you to gather your many sparks and braid them into one luminous strand. The universe rewards your willingness to choose — not by limiting your curiosity, but by giving it a center of gravity. Your voice becomes more recognizable, your message more singular.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Voice Refinement", "guidance": "Notice which topics make you most alive when you speak. They are clues." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Public Resonance", "guidance": "Share more boldly. Your audience is finding you — let yourself be findable." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Collaborative Magic", "guidance": "A partnership doubles your reach. Choose someone whose substance matches your sparkle." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Recognized Authority", "guidance": "Your voice is identified with something. Receive the recognition without shrinking." }
+    ],
+    "warningWindow": "Late September: a tempting distraction promises a thrill but costs your momentum. Pause.",
+    "openingWindow": "Mid-June (around your birthday): the right invitation arrives. Say yes."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your voice and the universe's amplifier are tuned to the same frequency.",
+    "dates": [
+      { "date": "June 15 (Solar Return)", "energy": "Voice Reset", "action": "Record yourself speaking your year's intention. Listen to it monthly." },
+      { "date": "September 19", "energy": "Word as Weather", "action": "Send the message you have been drafting. The right person is listening." },
+      { "date": "November 22", "energy": "Creative Lightning", "action": "Write or create something faster than you think you can. Speed is the gift." },
+      { "date": "February 14", "energy": "Resonance Day", "action": "Have the conversation that changes everything. You will know which one." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Soul Who Will Listen to Your Many Voices",
+    "description": "Your divine counterpart is not someone who tries to slow you down. They are someone whose attention is so present that you finally feel heard at the speed you actually move.",
+    "qualities": [
+      "Curious — they ask questions instead of completing your sentences",
+      "Their own creative or intellectual life — not borrowing yours",
+      "Calm without being dull",
+      "Honest enough to call out your scattering when love requires it"
+    ],
+    "meetingSign": "You will likely meet through words — a workshop, a panel, a chance conversation that lasts six hours. The first real exchange will feel like a duet of recognition.",
+    "timing": "Most likely between your 27th and 33rd life year, or after you've stopped editing yourself for an audience."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers being a messenger — perhaps a traveling poet, a court translator, a journalist of revolutions, a teacher who carried wisdom between villages. You moved language across borders. In this life, certain words, certain accents, certain idioms feel suspiciously familiar. You did not invent your love of language. You inherited it from yourself.",
+    "unfinishedLesson": "In a past incarnation, you spread yourself across too many causes and finished none of them. This life is the one where you learn that one well-told story changes the world more than a hundred half-told ones."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Air-Element Ritual",
+    "description": "A vocal ritual aligned with Gemini-3 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Open a window or step outside. Find a place where you can speak aloud.",
+      "Take three full breaths, sensing the air moving through your throat.",
+      "Write one sentence beginning with 'My voice is...' — let the pen move faster than your editor.",
+      "Read it aloud three times — quietly, then louder, then loudest.",
+      "Fold the paper into a paper plane or bird shape.",
+      "Place it on a windowsill or somewhere the wind can reach.",
+      "Leave it for three days. The wind carries your declaration into the field."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud — voice is your medicine.",
+    "daily": [
+      { "day": "Monday", "affirmation": "My voice is a force for joy." },
+      { "day": "Tuesday", "affirmation": "I am allowed to be light and important at the same time." },
+      { "day": "Wednesday", "affirmation": "My curiosity is a form of prayer." },
+      { "day": "Thursday", "affirmation": "Choosing one thing does not betray my many things." },
+      { "day": "Friday", "affirmation": "I speak even when my voice shakes." },
+      { "day": "Saturday", "affirmation": "My words reweave what was disconnected." },
+      { "day": "Sunday", "affirmation": "I am here to translate the soul into the everyday." }
+    ]
+  }
+}

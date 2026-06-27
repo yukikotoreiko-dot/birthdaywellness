@@ -1,0 +1,155 @@
+{
+  "month": 12,
+  "day": 1,
+  "zodiac": "Sagittarius",
+  "zodiacRange": "Nov 22 - Dec 21",
+  "lifePathNumber": 4,
+  "personality": {
+    "description": "Born on December 1st under free, far-roaming Sagittarius and carrying Life Path 4 — the number of the builder, the system, the patient craftsman — you are the soul who turns adventure into a discipline. Where many Sagittarians chase horizons impulsively, you bring the Four's methodical persistence to your exploring: you don't just wander, you build a practiced, reliable mastery out of your adventures, becoming the disciplined explorer who turns wide-ranging experience into hard-won, dependable skill. Your gift is disciplined adventure — combining Sagittarius's love of far horizons, optimism, and meaning with the Four's patience, structure, and follow-through, becoming the soul who explores widely yet builds something solid and lasting from all that roaming. You are the disciplined explorer, the one who masters the territory others merely pass through. You combine Sagittarius's reach with the Four's diligence. But your disciplined adventure can pull two ways: your love of freedom may rebel against the routines mastery requires, or your discipline may grow so rigid it strangles the spontaneity that makes adventure alive — leaving you either an undisciplined dabbler or a joyless drudge. You came here to turn adventure into mastery through patient discipline — and to learn to keep your structure flexible and your freedom productive, so discipline serves your adventures rather than caging them.",
+    "headline": "The Disciplined Explorer Who Turns Adventure into Mastery",
+    "keywords": ["Disciplined", "Adventurous", "Methodical"],
+    "strengths": ["Turning wide experience into dependable mastery", "Bringing patient follow-through to exploration", "Building something solid from roaming", "Mastering territory others merely pass through"],
+    "weaknesses": ["Freedom rebelling against the routines of mastery", "Discipline growing rigid and joyless", "Either an undisciplined dabbler or a drudge", "Structure strangling spontaneity"],
+    "theme": "Your life theme is 'adventure built into mastery.' Your gift to turn adventure into mastery through patient discipline builds something solid from all your roaming — but freedom rebelling against routine, or discipline strangling spontaneity, leaves you either a dabbler or a drudge. The growth is keeping your structure flexible and your freedom productive, so discipline serves your adventures rather than caging them."
+  },
+  "love": "You love loyally, steadily, and with a free-spirited streak, building a dependable bond while needing room to explore and grow. You bring reliability, patience, optimism, and the rare gift of making a relationship both stable and adventurous. Your challenge is letting freedom rebel against the consistency love needs, or letting routine drain the spontaneity that keeps love alive. The right partner is steady yet free-spirited, who builds something dependable with you yet keeps adventure in it. When you let love be both disciplined and free, both reliable and alive, your disciplined-adventurer heart builds a bond that lasts AND breathes.",
+  "career": {
+    "description": "You belong where exploration is mastered into reliable skill — fields that reward both wide-ranging experience and patient expertise: international or expeditionary work built on real craft, teaching or training in adventurous fields, building lasting structures in expansive domains, or any role where the Four's diligence turns the Sagittarian reach into dependable mastery. Pure dabbling OR joyless routine both fail you. You thrive where you build hard-won mastery from wide experience.",
+    "jobs": [
+      "Master of a craft built from wide experience",
+      "Expedition leader or trainer with real expertise",
+      "Builder of lasting ventures in expansive fields",
+      "Disciplined specialist who has explored widely",
+      "Anyone who turns adventure into dependable mastery"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "April 1", "zodiac": "Aries", "reason": "Their drive energizes your patient, adventurous building" },
+      { "date": "August 14", "zodiac": "Leo", "reason": "Their steady warmth matches your disciplined freedom" },
+      { "date": "March 31", "zodiac": "Aries", "reason": "Their bold spirit fuels your methodical exploring" }
+    ],
+    "challenging": [
+      { "date": "June 5", "zodiac": "Gemini", "reason": "Their restlessness unsettles your need for structure" },
+      { "date": "September 1", "zodiac": "Virgo", "reason": "Their rigidity can strangle your adventurous spirit" },
+      { "date": "July 1", "zodiac": "Cancer", "reason": "Their need for the settled strains your love of exploring" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Royal Purple", "Slate Gray"],
+    "stones": ["Turquoise", "Amethyst"],
+    "flower": "Carnation",
+    "flowerMeaning": "Disciplined devotion · Mastery built from adventure",
+    "numbers": [4, 9],
+    "direction": "East"
+  },
+  "constitution": {
+    "description": "Sagittarius governs the liver, hips, thighs, and sciatic nerve, and as a Life Path 4 you carry both Sagittarius's expansive vitality and the Four's solid, structural, but tension-prone constitution — your liver (Sagittarius's seat, ruling expansion) and the bones, joints, and muscular structure the Four governs. The push-pull between adventurous freedom and disciplined structure can lodge tension in both your liver and your structural body.",
+    "watchPoints": [
+      "Liver strain from over-extension and the tension of freedom vs. discipline (Sagittarius's domain)",
+      "Joint, bone, and muscular tension from rigidity and overwork (the Four's pattern)",
+      "Hip, thigh, and lower-back strain from an adventurous body held to routine"
+    ],
+    "seasonalNote": "Your birthday season fills you with disciplined yet adventurous energy. Keep structure flexible and freedom active — your Sagittarius-ruled, expansive system and your structural Four body stay healthiest when discipline and spontaneity coexist, your liver isn't overtaxed by inner tension, and you move and roam your body rather than locking it into rigid routine."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Liver-supporting foods (leafy greens, beets, lemon)", "reason": "Support the liver Sagittarius rules" },
+      { "name": "Grounding root vegetables and whole grains", "reason": "Steady and build a structural constitution" },
+      { "name": "Calcium and magnesium-rich foods", "reason": "Support the bones, joints, and muscles the Four governs" }
+    ],
+    "herbs": [
+      { "name": "Dandelion or milk thistle tea", "reason": "Traditionally support liver health (Sagittarius's domain)" },
+      { "name": "Nettle or horsetail tea", "reason": "Traditionally support bones, joints, and structure (the Four's domain)" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is adventure built into mastery — keeping your structure flexible and your freedom productive, so discipline serves your adventures rather than caging them, neither dabbling nor drudging.",
+    "habits": [
+      "Keep your structure flexible, not rigid",
+      "Let your freedom be productive, channeled into mastery",
+      "Don't let routine strangle spontaneity",
+      "Move and roam your body rather than locking it into routine"
+    ],
+    "stressManagement": "You discharge stress through both disciplined work and adventurous movement, needing both. Dandelion tea is said to support liver health and nettle to support structure, while keeping your discipline flexible and your freedom productive keeps you from becoming either a restless dabbler or a joyless drudge."
+  },
+  "famousPeople": [
+    "Woody Allen (American filmmaker)",
+    "Bette Midler (American singer and actress)",
+    "Richard Pryor (American comedian)",
+    "Sarah Silverman (American comedian)",
+    "Janelle Monáe (American singer)",
+    "Zoë Kravitz (American actress)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Turn Adventure into Mastery Through Patient Discipline",
+    "description": "The December 1st soul carries a contract of disciplined adventure: to combine Sagittarius's love of far horizons, optimism, and meaning with the Four's patience, structure, and follow-through — to be the disciplined explorer who explores widely yet builds something solid and lasting from all that roaming, who masters the territory others merely pass through. You are here to turn adventure into mastery, combining Sagittarius's reach with the Four's diligence. You build hard-won skill from wide experience. But your deeper mission is to balance the two: to learn that your love of freedom can rebel against the routines mastery requires, or your discipline can grow so rigid it strangles the spontaneity that makes adventure alive, leaving you either an undisciplined dabbler or a joyless drudge — and that the truest mastery keeps structure flexible and freedom productive. When you turn adventure into mastery through patient discipline, while keeping your structure flexible and your freedom alive, you become a true disciplined explorer — one who masters AND keeps the spark, building lasting skill without killing the joy of the journey.",
+    "sacredGift": "The Gift of Disciplined Adventure",
+    "shadowWork": "Learning to keep your structure flexible and your freedom productive, so discipline serves your adventures rather than caging them — neither dabbling without mastery nor drudging without joy."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Disciplined Adventure",
+    "overallTheme": "This year your gift for turning adventure into mastery through patient discipline is called forth — wide experience to master, skill to build, structure to make flexible. The universe rewards your disciplined adventure, but tests whether you keep structure flexible and freedom alive. The lesson this year is to turn adventure into mastery while letting discipline serve your freedom rather than caging it.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Explore Widely", "guidance": "Range far. Gather the wide experience your mastery will build on." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Build Mastery", "guidance": "Bring patient discipline to your exploring. Turn experience into skill." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Keep Structure Flexible", "guidance": "Don't let discipline grow rigid. Keep your structure breathing." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Master Without Drudgery", "guidance": "Keep the spark alive. Master without killing the joy of the journey." }
+    ],
+    "warningWindow": "Early December: freedom rebelling against the routines of mastery, or discipline strangling spontaneity, may leave you a dabbler or a drudge. Keep structure flexible and freedom productive.",
+    "openingWindow": "Around your birthday (early December): your disciplined adventure is at its strongest. Turn adventure into mastery — keeping structure flexible and the spark alive."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your disciplined adventure aligns with the universe's building current — moments to explore, master, and keep flexible.",
+    "dates": [
+      { "date": "December 1 (Solar Return)", "energy": "Disciplined-Adventure Day", "action": "Turn adventure into mastery through patient discipline. Disciplined adventure is your birthday gift." },
+      { "date": "December 28", "energy": "Mastery Day", "action": "Bring patient discipline to your exploring. Turn experience into skill." },
+      { "date": "February 16", "energy": "Flexibility Day", "action": "Don't let discipline grow rigid. Keep your structure breathing." },
+      { "date": "April 23", "energy": "Living-Spark Day", "action": "Keep the joy alive. Master without becoming a drudge." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Steady Yet Free-Spirited Partner Who Builds and Roams With You",
+    "description": "Your divine counterpart is steady yet free-spirited, who builds something dependable with you yet keeps adventure in it — a partner who shares both your need for reliability and your love of exploring, making a bond that lasts AND breathes, disciplined yet alive.",
+    "qualities": [
+      "Steady, building something dependable with you",
+      "Free-spirited, keeping adventure in the bond",
+      "Shares both your discipline and your love of exploring",
+      "Makes love both reliable and alive"
+    ],
+    "meetingSign": "You will likely meet through shared work, a craft, or an adventure that demands real commitment — a connection both grounded and exciting. The connection will feel dependable yet alive, a bond you can build on without losing the spark.",
+    "timing": "Most likely once you have learned to keep structure flexible and freedom alive — when you are neither dabbler nor drudge, and can build a lasting yet adventurous love with a steady yet free-spirited partner."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers turning adventure into mastery — a disciplined explorer who built hard-won skill from wide experience, a patient soul who mastered the territory others merely passed through, one who made something lasting from all that roaming. You knew the gift of disciplined adventure. In this life, the urge to both explore widely AND master deeply, to build something solid from your wandering, rises in you without explanation. That is not mere diligence. That is memory.",
+    "unfinishedLesson": "In a past incarnation, your disciplined adventure pulled apart — either your love of freedom rebelled against the routines mastery required, leaving you a dabbler who mastered nothing, or your discipline grew so rigid it strangled the spontaneity that made adventure alive, leaving you a joyless drudge. This life is the one where you learn to keep your structure flexible and your freedom productive, so discipline serves your adventures rather than caging them."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Disciplined-Adventure Ritual",
+    "description": "A potent ritual aligned with Sagittarius-4 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a purple or gray candle and take several slow breaths, feeling both your adventurous spirit and your patient discipline.",
+      "Name the adventure or wide experience you most want to master this cycle.",
+      "Write one patient, disciplined practice that will turn it into real skill.",
+      "Then write one way you'll keep that practice flexible and alive, not rigid.",
+      "Place a hand on your heart and say: 'I turn adventure into mastery, keeping my discipline flexible and my freedom alive.'",
+      "Name one way you'll keep the spark in your discipline this cycle.",
+      "Take one mastery-building step and one spontaneous, free action this week."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I turn wide experience into dependable mastery." },
+      { "day": "Tuesday", "affirmation": "I bring patient discipline to my exploring." },
+      { "day": "Wednesday", "affirmation": "I master the territory others merely pass through." },
+      { "day": "Thursday", "affirmation": "I keep my structure flexible, not rigid." },
+      { "day": "Friday", "affirmation": "I let my freedom be productive, channeled into mastery." },
+      { "day": "Saturday", "affirmation": "I don't let routine strangle my spontaneity." },
+      { "day": "Sunday", "affirmation": "I master AND keep the spark, building skill without killing joy." }
+    ]
+  }
+}

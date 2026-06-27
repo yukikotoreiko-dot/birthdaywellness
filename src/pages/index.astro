@@ -80,38 +80,38 @@ const description =
       </div>
     </section>
   </div>
+
+  <script is:inline>
+    const monthSlugs = [
+      'january', 'february', 'march', 'april', 'may', 'june',
+      'july', 'august', 'september', 'october', 'november', 'december'
+    ];
+
+    const form = document.getElementById('birthdayForm');
+    const errorEl = document.getElementById('formError');
+
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const month = parseInt(document.getElementById('month').value, 10);
+      const day = parseInt(document.getElementById('day').value, 10);
+
+      if (!month || !day) {
+        errorEl.textContent = '月と日を選んでください';
+        errorEl.classList.remove('hidden');
+        return;
+      }
+
+      // 月ごとの日数チェック
+      const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+      if (day > daysInMonth[month - 1]) {
+        errorEl.textContent = `${month}月は${daysInMonth[month - 1]}日までです`;
+        errorEl.classList.remove('hidden');
+        return;
+      }
+
+      errorEl.classList.add('hidden');
+      const slug = monthSlugs[month - 1];
+      window.location.href = `/${slug}/${day}/`;
+    });
+  </script>
 </BaseLayout>
-
-<script is:inline>
-  const monthSlugs = [
-    'january', 'february', 'march', 'april', 'may', 'june',
-    'july', 'august', 'september', 'october', 'november', 'december'
-  ];
-
-  const form = document.getElementById('birthdayForm');
-  const errorEl = document.getElementById('formError');
-
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const month = parseInt(document.getElementById('month').value, 10);
-    const day = parseInt(document.getElementById('day').value, 10);
-
-    if (!month || !day) {
-      errorEl.textContent = '月と日を選んでください';
-      errorEl.classList.remove('hidden');
-      return;
-    }
-
-    // 月ごとの日数チェック
-    const daysInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-    if (day > daysInMonth[month - 1]) {
-      errorEl.textContent = `${month}月は${daysInMonth[month - 1]}日までです`;
-      errorEl.classList.remove('hidden');
-      return;
-    }
-
-    errorEl.classList.add('hidden');
-    const slug = monthSlugs[month - 1];
-    window.location.href = `/${slug}/${day}/`;
-  });
-</script>

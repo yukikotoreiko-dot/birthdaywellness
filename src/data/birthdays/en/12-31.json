@@ -1,0 +1,84 @@
+{
+  "month": 12,
+  "day": 31,
+  "zodiac": "Capricorn",
+  "zodiacRange": "Dec 22 - Jan 19",
+  "lifePathNumber": 7,
+  "personality": {
+    "headline": "A Philosopher's Soul Seeking Truth in Silence",
+    "keywords": ["Inquiring", "Solitary", "Insightful"],
+    "description": "Born on December 31st, you blend Capricorn's grounded ambition with Life Path 7's deep insight and mystical nature — a 'seeker who doesn't fear solitude.' Born on the last day of the year, you instinctively understand 'endings and beginnings,' viewing life's turning points with calm clarity. You find true happiness not in lively gatherings but in solitary reading or quiet contemplation. Smoothing over surfaces to please others isn't your style; while you may appear cool externally, inside lives a romantic who loves the world more deeply than anyone and is endlessly seeking truth.",
+    "strengths": ["Insight", "Concentration", "Integrity", "Mental strength"],
+    "weaknesses": ["Hard to open up", "Overly analytical", "Prone to isolation", "Strong self-criticism"],
+    "theme": "Your life theme is 'balancing solitude with connection.' Protect your alone time fiercely, but don't fear building a small circle of deeply trusted bonds. Choose depth over breadth in relationships."
+  },
+  "love": "In love, you prize 'spiritual connection' above all. You're drawn to inner depth rather than surface chemistry. Love-at-first-sight rarely happens for you; instead, you tend to fall slowly over long stretches of time. Once you open your heart, you offer absolute loyalty — but because you struggle to put feelings into words, partners sometimes misread you as 'cold.' Practicing to verbalize 'thank you' and 'I love you' becomes essential. Your ideal partner is someone intellectual and serene, who experiences your silence as richness rather than loneliness. Marriage tends to feel right from your 30s onward.",
+  "career": {
+    "description": "You shine in roles using deep thought and the ability to see essence. Environments demanding instant results drain you; you thrive in jobs allowing careful research, analysis, or creation, especially ones with protected solo focus time.",
+    "jobs": [
+      "Researcher, academic, or specialist",
+      "Analyst or data scientist",
+      "Writer, philosopher, or critic",
+      "Psychologist or psychiatrist",
+      "Archivist or librarian"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "April 22", "zodiac": "Taurus", "reason": "Quiet depth that resonates profoundly" },
+      { "date": "August 25", "zodiac": "Virgo", "reason": "Shared intellectual curiosity" },
+      { "date": "February 10", "zodiac": "Aquarius", "reason": "Mutual respect for independence and uniqueness" }
+    ],
+    "challenging": [
+      { "date": "May 30", "zodiac": "Gemini", "reason": "Different appetites for depth" },
+      { "date": "November 15", "zodiac": "Scorpio", "reason": "Too deep together — gets heavy" },
+      { "date": "July 15", "zodiac": "Cancer", "reason": "Mismatched emotional expression" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Midnight Blue", "Silver"],
+    "stones": ["Turquoise", "Lapis Lazuli"],
+    "flower": "Ornamental Kale (Habotan)",
+    "flowerMeaning": "Blessing · Unshakable spirit",
+    "numbers": [7, 31],
+    "direction": "North"
+  },
+  "constitution": {
+    "description": "In traditional astrology, Capricorn governs bones, joints, and teeth. As an earth-element sign, you tend toward 'cold and stagnation' patterns. The introverted energy of Life Path 7 adds mental fatigue and eye strain from heavy thinking — you tend to notice 'overuse' signs late. Being born at year's end aligns you with the body's coldest season.",
+    "watchPoints": [
+      "Coldness and chronic stiffness in knees, lower back, and joints",
+      "Eye strain and headaches from overthinking",
+      "Reduced sleep quality from a busy mind"
+    ],
+    "seasonalNote": "From December through February, conscious 'warming' and 'releasing' become essential. External warming tools — hot water bottles, belly warmers, moxibustion — help your body soften."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Black foods (black beans, black sesame, hijiki)", "reason": "Traditionally said to support the kidneys and counter cold" },
+      { "name": "Walnuts & pine nuts", "reason": "Nuts said to nourish the brain and nervous system" },
+      { "name": "Mountain yam & taro", "reason": "Sticky-textured roots that support digestive balance" }
+    ],
+    "herbs": [
+      { "name": "Ginger & cinnamon tea", "reason": "Helps warm the body from the core" },
+      { "name": "Chamomile tea", "reason": "Said to quiet a busy mind" }
+    ]
+  },
+  "selfCare": {
+    "description": "Caring for both your 'overthinking head' and 'cold body' is your core practice. Balance among meditation, warming, and digital detox is key.",
+    "habits": [
+      "Begin each day with warm water and quiet breath",
+      "Half-body bath twice a week (41°C / 15 min) to warm the pelvis",
+      "Evening reading time (paper book + warm lighting)",
+      "Monthly nature walks to reconnect with the earth"
+    ],
+    "stressManagement": "Improving 'input quality' helps more than output. Deep books, quiet music, and time in nature nourish your soul. Frankincense or Cypress aromatherapy is said to support meditation and deep breathing."
+  },
+  "famousPeople": [
+    "Ayumi Hamasaki (Japanese singer)",
+    "EXILE TAKAHIRO (Japanese singer)",
+    "Masachika Ichimura (Japanese actor)",
+    "Anthony Hopkins (Welsh actor, 'The Silence of the Lambs')",
+    "Henri Matisse (French painter)",
+    "Val Kilmer (American actor)"
+  ]
+}

@@ -6,9 +6,12 @@ interface Props {
   description: string;
   lang?: 'ja' | 'en';
   currentPath?: string;
+  ogImage?: string;
 }
 
-const { title, description, lang = 'ja', currentPath = '/' } = Astro.props;
+const { title, description, lang = 'ja', currentPath = '/', ogImage } = Astro.props;
+const canonicalURL = new URL(currentPath, 'https://birthdaywellness.com').href;
+const ogImageURL = ogImage ?? 'https://birthdaywellness.com/favicon.svg';
 
 // 言語切替リンクの生成
 const switchLang = lang === 'ja' ? 'en' : 'ja';
@@ -33,12 +36,98 @@ const disclaimerText =
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="9fUVk8xqUUXXJBG8qNRGYtp3jnUYqYuP9hHr5KoZNmE" />
     <meta name="description" content={description} />
     <title>{title}</title>
-    <link rel="alternate" hreflang={switchLang} href={switchPath} />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="alternate" hreflang={switchLang} href={`https://birthdaywellness.com${switchPath}`} />
+    <link rel="alternate" hreflang={lang} href={canonicalURL} />
+    <!-- OGP -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:site_name" content="Birthday Wellness" />
+    <meta property="og:locale" content={lang === 'ja' ? 'ja_JP' : 'en_US'} />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
   </head>
-  <body class="bg-gradient-to-br from-purple-50 via-pink-50 to-amber-50 min-h-screen text-slate-800">
-    <header class="bg-white/80 backdrop-blur-sm border-b border-purple-100 sticky top-0 z-10">
+  <body class="bg-gradient-to-br from-purple-50 via-pink-50 to-amber-50 min-h-screen text-slate-800 page-cosmic-bg">
+
+    <!-- 背景装飾：上品で控えめなトーン -->
+    <div class="cosmic-decoration" aria-hidden="true">
+
+      <!-- 神聖幾何学（左上：Flower of Life・控えめ） -->
+      <svg class="cosmic-geometry" style="top:8%; left:-100px; width:360px; height:360px;" viewBox="0 0 400 400">
+        <g fill="none" stroke="#a855f7" stroke-width="1">
+          <circle cx="200" cy="200" r="60"/>
+          <circle cx="200" cy="140" r="60"/>
+          <circle cx="200" cy="260" r="60"/>
+          <circle cx="148" cy="170" r="60"/>
+          <circle cx="252" cy="170" r="60"/>
+          <circle cx="148" cy="230" r="60"/>
+          <circle cx="252" cy="230" r="60"/>
+          <circle cx="200" cy="80" r="60"/>
+          <circle cx="200" cy="320" r="60"/>
+          <circle cx="96" cy="200" r="60"/>
+          <circle cx="304" cy="200" r="60"/>
+          <circle cx="200" cy="200" r="120" stroke-width="1.2"/>
+        </g>
+      </svg>
+
+      <!-- 神聖幾何学（右下：ホロスコープサークル・控えめ） -->
+      <svg class="cosmic-geometry cosmic-geometry-reverse" style="bottom:8%; right:-70px; width:340px; height:340px;" viewBox="0 0 300 300">
+        <g fill="none" stroke="#d4af37" stroke-width="1">
+          <circle cx="150" cy="150" r="120" stroke-width="1.2"/>
+          <circle cx="150" cy="150" r="100"/>
+          <circle cx="150" cy="150" r="80"/>
+          <line x1="150" y1="30" x2="150" y2="270"/>
+          <line x1="30" y1="150" x2="270" y2="150"/>
+          <line x1="63.4" y1="63.4" x2="236.6" y2="236.6"/>
+          <line x1="236.6" y1="63.4" x2="63.4" y2="236.6"/>
+        </g>
+        <g fill="#d4af37" font-family="Noto Sans Symbols 2, system-ui" font-size="14" text-anchor="middle">
+          <text x="150" y="22">♈</text>
+          <text x="218" y="50">♉</text>
+          <text x="272" y="105">♊</text>
+          <text x="290" y="158">♋</text>
+          <text x="272" y="215">♌</text>
+          <text x="218" y="267">♍</text>
+          <text x="150" y="295">♎</text>
+          <text x="82" y="267">♏</text>
+          <text x="28" y="215">♐</text>
+          <text x="10" y="158">♑</text>
+          <text x="28" y="105">♒</text>
+          <text x="82" y="50">♓</text>
+        </g>
+      </svg>
+
+      <!-- 浮遊するオーブ（3個に削減・控えめ） -->
+      <div class="cosmic-orb cosmic-orb-purple" style="top:15%; right:18%; width:220px; height:220px; animation-delay:0s;"></div>
+      <div class="cosmic-orb cosmic-orb-pink" style="bottom:25%; left:18%; width:200px; height:200px; animation-delay:5s;"></div>
+      <div class="cosmic-orb cosmic-orb-gold" style="top:55%; left:50%; width:180px; height:180px; animation-delay:8s;"></div>
+
+      <!-- 星々（8個に厳選・控えめ） -->
+      <span class="cosmic-star cosmic-star-gold" style="top:12%; left:8%; animation-delay:0s;">✦</span>
+      <span class="cosmic-star" style="top:25%; right:8%; animation-delay:2s;">✧</span>
+      <span class="cosmic-star cosmic-star-rose" style="top:42%; left:6%; animation-delay:1s;">✦</span>
+      <span class="cosmic-star cosmic-star-gold" style="top:58%; right:5%; animation-delay:3s;">✧</span>
+      <span class="cosmic-star" style="bottom:30%; left:10%; animation-delay:2.5s;">✦</span>
+      <span class="cosmic-star cosmic-star-rose" style="bottom:15%; right:12%; animation-delay:1.5s;">✧</span>
+      <span class="cosmic-star cosmic-star-gold" style="top:35%; left:50%; animation-delay:4s; font-size:0.875rem;">✦</span>
+      <span class="cosmic-star" style="bottom:45%; right:45%; animation-delay:3.5s; font-size:0.875rem;">✧</span>
+
+      <!-- 大きな神秘的シンボル（2つに厳選・とても薄く） -->
+      <span class="cosmic-symbol-large cosmic-symbol-large-gold" style="top:8%; right:-20px; transform:rotate(15deg);">☽</span>
+      <span class="cosmic-symbol-large" style="bottom:10%; left:-30px; transform:rotate(-15deg);">✺</span>
+
+    </div>
+
+    <header class="bg-white/80 backdrop-blur-sm border-b border-purple-100 sticky top-0 z-20 relative">
       <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href={lang === 'ja' ? '/' : '/en/'} class="flex items-center gap-2">
           <span class="text-2xl">✨</span>
@@ -55,7 +144,7 @@ const disclaimerText =
       </div>
     </header>
 
-    <main class="max-w-3xl mx-auto px-4 py-8">
+    <main class="max-w-3xl mx-auto px-4 py-8 relative z-10">
       <slot />
     </main>
 

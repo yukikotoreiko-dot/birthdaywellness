@@ -1,0 +1,155 @@
+{
+  "month": 3,
+  "day": 3,
+  "zodiac": "Pisces",
+  "zodiacRange": "Feb 19 - Mar 20",
+  "lifePathNumber": 6,
+  "personality": {
+    "description": "Born on March 3rd under artistic, soulful Pisces and carrying Life Path 6 — the number of beauty, harmony, and nurturing care — you are the soul who heals and nurtures hearts through beauty and art. Where the February 22nd soul heals through compassionate presence, your particular gift is healing through beauty: you take the Six's love of beauty, harmony, and care and Pisces's artistic soul and emotional depth, becoming the soul who soothes, heals, and nurtures people's hearts through beauty — through art, music, lovely spaces, and harmonious atmospheres that comfort the soul and make people feel cared for and at peace. Your gift is healing beauty — combining Pisces's artistic, soulful depth with the Six's love of beauty, harmony, and nurturing care, becoming the soul who heals and comforts hearts through beauty, creating harmony, loveliness, and soothing atmospheres that nurture the soul. You are the beauty-healer, the one who soothes hearts through beauty. You combine Pisces's artistry with the Six's nurturing harmony. But your healing beauty can pull two ways: so devoted to creating beauty and harmony for others that you neglect your own needs and exhaust yourself making everything lovely, the beauty-maker depleted to give, or so attached to harmony and beauty that you can't tolerate or face the ugly, painful, discordant realities that sometimes need facing, smoothing over what needs to be confronted. You came here to heal and nurture hearts through beauty — and to learn to care for your own heart as much as you beautify everyone else's, and to face the hard, ugly truths beauty can't smooth over when they need facing.",
+    "headline": "The Beauty-Healer Who Soothes Hearts Through Beauty",
+    "keywords": ["Artistic", "Healing", "Harmonious"],
+    "strengths": ["Healing and comforting hearts through beauty", "Creating harmony and soothing atmospheres", "Nurturing the soul through art and loveliness", "Combining artistic depth with nurturing care"],
+    "weaknesses": ["Neglecting your own needs making everything lovely", "The beauty-maker depleted to give", "Can't face ugly, painful, discordant realities", "Smoothing over what needs to be confronted"],
+    "theme": "Your life theme is 'beauty that heals while facing hard truths.' Your gift to heal and nurture hearts through beauty soothes the soul — but devotion to beauty that depletes you, or attachment to harmony that smooths over what needs facing, undercuts the gift. The growth is caring for your own heart as much as you beautify everyone else's, and facing the hard, ugly truths beauty can't smooth over when they need facing."
+  },
+  "love": "You love tenderly, beautifully, and harmoniously, creating a lovely, soothing, harmonious world around your partner and nurturing their heart. You bring beauty, tenderness, harmony, and healing care. Your challenge is exhausting yourself making everything beautiful for your partner while neglecting your own needs, or smoothing over real conflicts and hard truths the relationship needs to face. The right partner cherishes the beauty you create yet nurtures you too and faces hard truths with you. When you let love be both beautiful and honest, both harmonious and real, your beauty-healer's heart heals while facing what needs facing.",
+  "career": {
+    "description": "You belong where beauty heals — art, music, design, beautiful and healing spaces, therapy through the arts, creating harmony and atmosphere, any field where Pisces's artistry and the Six's love of beauty can soothe and nurture hearts. Ugly, harsh, or discordant environments wound you. You thrive healing hearts through beauty — best when you care for your own heart too and face hard truths when needed.",
+    "jobs": [
+      "Artist, musician, or designer who heals through beauty",
+      "Creator of beautiful, soothing, harmonious spaces",
+      "Arts therapist or beauty-based healer",
+      "Nurturer of hearts through art and loveliness",
+      "Anyone who heals and nurtures hearts through beauty"
+    ]
+  },
+  "compatibility": {
+    "best": [
+      { "date": "July 3", "zodiac": "Cancer", "reason": "Their nurturing warmth shares your healing beauty" },
+      { "date": "November 3", "zodiac": "Scorpio", "reason": "Their depth meets your soulful, artistic care" },
+      { "date": "May 3", "zodiac": "Taurus", "reason": "Their love of beauty and the senses matches your harmony" }
+    ],
+    "challenging": [
+      { "date": "June 3", "zodiac": "Gemini", "reason": "Their detachment strains your deep, nurturing care" },
+      { "date": "September 3", "zodiac": "Virgo", "reason": "Their criticism disrupts your harmonious beauty" },
+      { "date": "December 3", "zodiac": "Sagittarius", "reason": "Their bluntness jars your gentle, harmonious nature" }
+    ]
+  },
+  "luckyItems": {
+    "colors": ["Sea Green", "Soft Rose"],
+    "stones": ["Aquamarine", "Moonstone"],
+    "flower": "Water Lily",
+    "flowerMeaning": "Healing beauty · Soothing hearts through beauty and harmony",
+    "numbers": [6, 7],
+    "direction": "West"
+  },
+  "constitution": {
+    "description": "Pisces governs the feet, lymphatic system, and immune system, and as a Life Path 6 you carry both Pisces's sensitive, porous, artistic constitution and the warmth of beauty-loving, nurturing care — your feet and lymphatic/immune system (Pisces's domain, ruling the artistic and absorbing) and the toll that over-giving beauty and avoiding hard realities can take. Exhausting yourself beautifying for others can deplete both your immune system and your nurturing heart.",
+    "watchPoints": [
+      "Foot and lymphatic/immune issues (Pisces's domain)",
+      "Immune depletion from exhausting yourself making everything lovely (the over-giving Six)",
+      "Strain from avoiding and smoothing over hard, discordant realities"
+    ],
+    "seasonalNote": "Your birthday season fills you with artistic, healing, harmonious energy. Care for your own heart and face hard truths too — your Pisces-ruled feet and immune system stay healthiest when you nurture yourself as much as you beautify for others, your lymphatic system keeps moving, and you don't exhaust yourself or avoid the realities beauty can't smooth over."
+  },
+  "luckyFoods": {
+    "foods": [
+      { "name": "Immune-supporting foods (vitamin C, zinc, leafy greens)", "reason": "Support the immune system Pisces rules" },
+      { "name": "Hydrating, lymph-supporting foods (water-rich produce)", "reason": "Support the lymphatic system Pisces governs" },
+      { "name": "Beautiful yet nourishing, self-tended meals", "reason": "Remind a beauty-maker to nurture their own heart" }
+    ],
+    "herbs": [
+      { "name": "Cleavers or calendula tea", "reason": "Traditionally support the lymphatic system (Pisces's domain)" },
+      { "name": "Rose or chamomile tea", "reason": "Tend an artistic, beauty-loving, nurturing heart" }
+    ]
+  },
+  "selfCare": {
+    "description": "Your self-care is beauty that heals while facing hard truths — caring for your own heart as much as you beautify everyone else's, and facing the hard, ugly truths beauty can't smooth over when they need facing.",
+    "habits": [
+      "Care for your own heart as much as you beautify others'",
+      "Don't exhaust yourself making everything lovely for others",
+      "Face hard, ugly truths beauty can't smooth over",
+      "Don't smooth over what needs to be confronted"
+    ],
+    "stressManagement": "You discharge stress by creating beauty and harmony, but must nurture yourself and face hard truths. Cleavers tea is said to support the lymphatic system and rose to tend an artistic heart, while caring for your own heart and facing hard truths when needed keeps your healing beauty from depleting you or smoothing over what must be confronted."
+  },
+  "famousPeople": [
+    "Alexander Graham Bell (Scottish-American inventor)",
+    "Jessica Biel (American actress)",
+    "Camila Cabello (Cuban-American singer)",
+    "Jean Harlow (American actress)",
+    "Tone Loc (American rapper)",
+    "Julie Bowen (American actress)"
+  ],
+  "soulMission": {
+    "title": "Your Soul Came to Heal and Nurture Hearts Through Beauty",
+    "description": "The March 3rd soul carries a contract of healing beauty: to combine Pisces's artistic, soulful depth with the Six's love of beauty, harmony, and nurturing care — to be the beauty-healer who soothes, heals, and nurtures people's hearts through beauty, through art, music, lovely spaces, and harmonious atmospheres that comfort the soul and make people feel cared for and at peace. You are here to heal hearts through beauty, combining Pisces's artistry with the Six's nurturing harmony. You soothe through beauty. But your deeper mission is to care for yourself and face hard truths: to learn that your healing beauty can make you so devoted to creating beauty and harmony for others that you neglect your own needs and exhaust yourself making everything lovely, the beauty-maker depleted to give, or so attached to harmony and beauty that you can't tolerate or face the ugly, painful, discordant realities that sometimes need facing, smoothing over what needs to be confronted — and that true healing also cares for the self and faces hard truths. When you heal and nurture hearts through beauty, while caring for your own heart as much as you beautify everyone else's and facing the hard truths beauty can't smooth over, you become a true beauty-healer — one who soothes hearts through beauty AND cares for themselves and faces what needs facing, healing with both beauty and honesty.",
+    "sacredGift": "The Gift of Healing Beauty",
+    "shadowWork": "Learning to care for your own heart as much as you beautify everyone else's, and to face the hard, ugly truths beauty can't smooth over when they need facing — not depleting yourself or smoothing over what must be confronted."
+  },
+  "yearAhead": {
+    "title": "Your Cosmic Forecast: The Year of Healing Beauty",
+    "overallTheme": "This year your gift for healing and nurturing hearts through beauty is called forth — hearts to soothe, harmony to create, beauty to heal with. The universe rewards your healing beauty, but tests whether you care for yourself and face hard truths. The lesson this year is to heal hearts through beauty while caring for your own heart and facing the hard truths beauty can't smooth over.",
+    "quarterly": [
+      { "period": "Q1 (Jan-Mar)", "focus": "Heal Through Beauty", "guidance": "Soothe and nurture hearts through art, harmony, and loveliness." },
+      { "period": "Q2 (Apr-Jun)", "focus": "Create Soothing Harmony", "guidance": "Create beauty and harmony that comfort and nurture the soul." },
+      { "period": "Q3 (Jul-Sep)", "focus": "Care for Your Own Heart", "guidance": "Care for your own heart as much as you beautify everyone else's." },
+      { "period": "Q4 (Oct-Dec)", "focus": "Face Hard Truths", "guidance": "Face the hard, ugly truths beauty can't smooth over when they need facing." }
+    ],
+    "warningWindow": "Early March: exhausting yourself making everything lovely, or smoothing over discordant realities that need facing, undercuts the gift. Care for your own heart and face hard truths.",
+    "openingWindow": "Around your birthday (early March): your healing beauty is at its most soothing. Heal and nurture hearts through beauty — while caring for your own heart and facing what needs facing."
+  },
+  "powerDays": {
+    "title": "Your Personal Power Days This Year",
+    "description": "Days when your healing beauty aligns with the universe's soothing current — moments to heal, harmonize, and face truth.",
+    "dates": [
+      { "date": "March 3 (Solar Return)", "energy": "Beauty-Healer Day", "action": "Heal and nurture hearts through beauty. Healing beauty is your birthday gift." },
+      { "date": "March 26", "energy": "Harmony Day", "action": "Create beauty and harmony that comfort and nurture the soul." },
+      { "date": "May 15", "energy": "Self-Care Day", "action": "Care for your own heart as much as you beautify everyone else's." },
+      { "date": "July 20", "energy": "Truth Day", "action": "Face the hard, ugly truths beauty can't smooth over when they need facing." }
+    ]
+  },
+  "soulmateBlueprint": {
+    "title": "The Partner Who Cherishes Your Beauty Yet Nurtures You and Faces Truth With You",
+    "description": "Your divine counterpart cherishes the beauty you create yet nurtures you too and faces hard truths with you — a partner who is soothed by the harmony you bring yet refuses to let you deplete yourself or smooth everything over, nurturing your heart and facing hard truths together.",
+    "qualities": [
+      "Cherishes the beauty and harmony you create",
+      "Nurtures your heart in return",
+      "Faces hard truths with you, not smoothing over",
+      "Refuses to let you deplete yourself for beauty"
+    ],
+    "meetingSign": "You will likely meet through beauty, art, music, or a soothing, harmonious connection. The connection will feel lovely and healing, full of beauty, yet this is the one who nurtures you too and faces hard truths with you rather than letting you smooth everything over.",
+    "timing": "Most likely once you have learned to care for yourself and face hard truths — when you no longer deplete yourself or smooth over what needs facing, and can heal through beauty while being nurtured and honest with a partner who cherishes and faces truth with you."
+  },
+  "pastLifeWhisper": {
+    "title": "Echoes from a Previous Life",
+    "story": "Your soul remembers healing through beauty — a beauty-healer who soothed and nurtured hearts through art, music, harmony, and loveliness, a soulful soul whose beauty comforted and brought peace. You knew the gift of healing beauty. In this life, the urge to create beauty, to soothe through harmony, to heal hearts through loveliness, rises in you without explanation, and ugliness and discord wound you. That is not mere aesthetics. That is memory.",
+    "unfinishedLesson": "In a past incarnation, your healing beauty pulled two ways — either you were so devoted to creating beauty and harmony for others that you neglected your own needs and exhausted yourself making everything lovely, the beauty-maker depleted to give, or you were so attached to harmony and beauty that you couldn't tolerate or face the ugly, painful, discordant realities that sometimes needed facing, smoothing over what needed to be confronted. This life is the one where you learn to care for your own heart as much as you beautify everyone else's, and to face the hard, ugly truths beauty can't smooth over when they need facing."
+  },
+  "manifestationRitual": {
+    "title": "Your Personal Healing-Beauty Ritual",
+    "description": "A potent ritual aligned with Pisces-6 frequencies. Do this on any new moon — and especially the new moon nearest your birthday.",
+    "steps": [
+      "Light a sea-green or rose candle and take several slow breaths, feeling your artistic, healing, harmonious heart.",
+      "Name the heart or space you most want to heal and nurture through beauty this cycle.",
+      "Write one way you'll soothe and nurture it through art, harmony, or loveliness.",
+      "Then write one way you'll care for your OWN heart, and one hard truth you'll face rather than smooth over.",
+      "Place a hand on your heart and say: 'I heal and nurture hearts through beauty, caring for my own heart too and facing what needs facing.'",
+      "Name one way you'll nurture yourself this cycle, and one hard truth you'll confront.",
+      "Heal one heart through beauty, nurture your own, and face one hard truth this week."
+    ]
+  },
+  "affirmations": {
+    "title": "Your 7-Day Awakening Sequence",
+    "description": "One affirmation per day for a week. Speak each one aloud at sunrise, standing.",
+    "daily": [
+      { "day": "Monday", "affirmation": "I heal and comfort hearts through beauty." },
+      { "day": "Tuesday", "affirmation": "I create harmony and soothing atmospheres." },
+      { "day": "Wednesday", "affirmation": "I nurture the soul through art and loveliness." },
+      { "day": "Thursday", "affirmation": "I care for my own heart as much as I beautify others'." },
+      { "day": "Friday", "affirmation": "I don't exhaust myself making everything lovely." },
+      { "day": "Saturday", "affirmation": "I face hard, ugly truths beauty can't smooth over." },
+      { "day": "Sunday", "affirmation": "I heal through beauty AND care for myself and face what needs facing." }
+    ]
+  }
+}
