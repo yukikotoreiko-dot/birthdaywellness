@@ -4,9 +4,16 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  ogImage?: string;
+  pinUrl?: string;
 }
 
-const { title, description = 'Birthday Wellness Pinterest Pin' } = Astro.props;
+const {
+  title,
+  description = 'Discover your birthday soul reading — personality, life mission & famous birthdays. Free at Birthday Wellness.',
+  ogImage = 'https://birthdaywellness.com/favicon.svg',
+  pinUrl = 'https://birthdaywellness.com',
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -17,6 +24,17 @@ const { title, description = 'Birthday Wellness Pinterest Pin' } = Astro.props;
     <meta name="description" content={description} />
     <meta name="robots" content="noindex" />
     <title>{title}</title>
+    <!-- OGP for Pinterest scraping -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={pinUrl} />
+    <meta property="og:site_name" content="Birthday Wellness" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
     <style>
       html, body {
         margin: 0;

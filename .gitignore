@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # claude local editor config
 .claude/
+pinterest-images/
